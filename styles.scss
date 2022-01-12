@@ -83,7 +83,6 @@ nav li a {
 
       &:nth-child(2) {
         display: flex;
-        align-items: center;
         background-color: white;
         position: absolute;
         flex-direction: column;
@@ -97,10 +96,16 @@ nav li a {
         letter-spacing: -0.45px;
         line-height: 50px;
         color: $primary-color-grey;
-        justify-content: flex-start;
+
+        a {
+          display: flex;
+        }
 
         img {
-          width: 300px;
+          width: 200px;
+          position: absolute;
+          bottom: -41px;
+          left: 48px;
         }
       }
     }

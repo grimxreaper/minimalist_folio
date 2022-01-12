@@ -79,7 +79,6 @@ nav li a {
 }
 .block.hero.style-1 .row .col:nth-child(2) {
   display: flex;
-  align-items: center;
   background-color: white;
   position: absolute;
   flex-direction: column;
@@ -93,10 +92,15 @@ nav li a {
   letter-spacing: -0.45px;
   line-height: 50px;
   color: #33323d;
-  justify-content: flex-start;
+}
+.block.hero.style-1 .row .col:nth-child(2) a {
+  display: flex;
 }
 .block.hero.style-1 .row .col:nth-child(2) img {
-  width: 300px;
+  width: 200px;
+  position: absolute;
+  bottom: -41px;
+  left: 48px;
 }
 
 /*# sourceMappingURL=styles.css.map */
