@@ -1,12 +1,17 @@
+$primary-color-grey: #33323d;
+$primary-color-blue: #203a4c;
+$primary-color-cyan: #5fb4a2;
+$sec-color-verylightgrey: #fafafa;
+$sec-color-lightgrey: #eaeaeb;
+$sec-color-brightred: #f43030;
+$h1: "Ibarra Real Nova", serif;
+$body: "Public Sans";
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
-$primary-color-grey: #33323d;
-$primary-color-blue: #203a4c;
-$primary-color-cyan: #5fb4a2;
 
 nav {
   height: 80px;
