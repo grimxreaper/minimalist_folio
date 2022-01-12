@@ -83,7 +83,6 @@ nav li a {
   position: absolute;
   flex-direction: column;
   bottom: 0px;
-  padding: 50px;
   height: 355px;
   width: 440px;
   font-family: "Ibarra Real Nova", serif;
@@ -93,14 +92,17 @@ nav li a {
   line-height: 50px;
   color: #33323d;
 }
+.block.hero.style-1 .row .col:nth-child(2) p {
+  padding-bottom: 41px;
+}
 .block.hero.style-1 .row .col:nth-child(2) a {
   display: flex;
 }
 .block.hero.style-1 .row .col:nth-child(2) img {
   width: 200px;
   position: absolute;
-  bottom: -41px;
-  left: 48px;
+  bottom: 0px;
+  left: 0px;
 }
 
 /*# sourceMappingURL=styles.css.map */

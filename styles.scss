@@ -87,7 +87,6 @@ nav li a {
         position: absolute;
         flex-direction: column;
         bottom: 0px;
-        padding: 50px;
         height: 355px;
         width: 440px;
         font-family: $h1;
@@ -97,6 +96,10 @@ nav li a {
         line-height: 50px;
         color: $primary-color-grey;
 
+        p {
+          padding-bottom: 41px;
+        }
+
         a {
           display: flex;
         }
@@ -104,8 +107,8 @@ nav li a {
         img {
           width: 200px;
           position: absolute;
-          bottom: -41px;
-          left: 48px;
+          bottom: 0px;
+          left: 0px;
         }
       }
     }
