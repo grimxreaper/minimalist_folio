@@ -74,6 +74,7 @@ nav li a {
   justify-content: center;
 
   .row {
+    position: relative;
     .col {
       display: flex;
       align-items: center;
@@ -86,6 +87,21 @@ nav li a {
         background-color: white;
         position: absolute;
         flex-direction: column;
+        bottom: 0px;
+        padding: 50px;
+        height: 355px;
+        width: 440px;
+        font-family: $h1;
+        font-weight: 700;
+        font-size: 50px;
+        letter-spacing: -0.45px;
+        line-height: 50px;
+        color: $primary-color-grey;
+        justify-content: flex-start;
+
+        img {
+          width: 300px;
+        }
       }
     }
   }

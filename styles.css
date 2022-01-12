@@ -68,6 +68,9 @@ nav li a {
   align-items: center;
   justify-content: center;
 }
+.block.hero.style-1 .row {
+  position: relative;
+}
 .block.hero.style-1 .row .col {
   display: flex;
   align-items: center;
@@ -80,6 +83,20 @@ nav li a {
   background-color: white;
   position: absolute;
   flex-direction: column;
+  bottom: 0px;
+  padding: 50px;
+  height: 355px;
+  width: 440px;
+  font-family: "Ibarra Real Nova", serif;
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: -0.45px;
+  line-height: 50px;
+  color: #33323d;
+  justify-content: flex-start;
+}
+.block.hero.style-1 .row .col:nth-child(2) img {
+  width: 300px;
 }
 
 /*# sourceMappingURL=styles.css.map */
