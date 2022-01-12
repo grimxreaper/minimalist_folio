@@ -3,13 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="styles.css" />
 
     <title>Frontend Mentor | Minimalist Portfolio</title>
   </head>
@@ -17,12 +23,16 @@
   <body>
     <main class="page wrapper">
       <header>
-        <div class="wrapper">
-          <div class="row">
-            <div class="col">
-              <a class="logo" href="#"></a>
-              <nav>
-                <ul>
+        <nav>
+          <div class="wrapper">
+            <div class="row">
+              <div class="col left">
+                <a class="logo" href="#"
+                  ><img src="./images/logo.svg" alt=""
+                /></a>
+              </div>
+              <div class="col right">
+                <ul class="menu">
                   <li>
                     <a href="#">Home</a>
                   </li>
@@ -33,10 +43,10 @@
                     <a href="#">Contact Me</a>
                   </li>
                 </ul>
-              </nav>
+              </div>
             </div>
           </div>
-        </div>
+        </nav>
       </header>
 
       <section class="block hero style-1"></section>
