@@ -11,7 +11,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
 }
 
 nav .wrapper {
@@ -51,6 +50,12 @@ nav li {
 nav li a {
   text-decoration: none;
   list-style: none;
+  color: #33323d;
+}
+
+.menu {
+  display: flex;
+  gap: 22px;
 }
 
 /*# sourceMappingURL=styles.css.map */

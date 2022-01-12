@@ -3,6 +3,11 @@
   margin: 0;
   padding: 0;
 }
+
+$primary-color-grey: #33323d;
+$primary-color-blue: #203a4c;
+$primary-color-cyan: #5fb4a2;
+
 nav {
   height: 80px;
   padding: 80px 0;
@@ -10,7 +15,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
 }
 nav .wrapper {
   height: 100%;
@@ -44,4 +48,10 @@ nav li {
 nav li a {
   text-decoration: none;
   list-style: none;
+  color: $primary-color-grey;
+}
+
+.menu {
+  display: flex;
+  gap: 22px;
 }
