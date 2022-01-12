@@ -54,9 +54,39 @@ nav li a {
   text-decoration: none;
   list-style: none;
   color: $primary-color-grey;
+  letter-spacing: 2px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: $body;
+  font-weight: 200;
 }
 
 .menu {
   display: flex;
   gap: 22px;
+}
+
+//block hero 1
+
+.block.hero.style-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .row {
+    .col {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+
+      &:nth-child(2) {
+        display: flex;
+        align-items: center;
+        background-color: white;
+        position: absolute;
+        flex-direction: column;
+      }
+    }
+  }
 }
