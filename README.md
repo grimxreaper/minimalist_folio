@@ -1,1 +1,1 @@
-# minimalist_folio
+Minimalist portfolio.
