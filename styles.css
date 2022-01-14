@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+.page.wrapper {
+  overflow: hidden;
+}
+
 nav {
   height: 80px;
   padding: 80px 0;
@@ -67,14 +71,23 @@ nav li a {
   align-items: center;
   justify-content: center;
 }
+.block.hero.style-1 .wrapper {
+  max-width: 1440px;
+}
 .block.hero.style-1 .row {
   position: relative;
+  display: flex;
 }
 .block.hero.style-1 .row .col {
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+}
+.block.hero.style-1 .row .col .desktop.image {
+  width: 1063px;
+  max-width: 1440px;
+  display: flex;
 }
 .block.hero.style-1 .row .col:nth-child(2) {
   display: flex;

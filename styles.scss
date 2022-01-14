@@ -13,6 +13,10 @@ $body: "Public Sans";
   padding: 0;
 }
 
+.page.wrapper{
+  overflow: hidden;
+}
+
 nav {
   height: 80px;
   padding: 80px 0;
@@ -72,13 +76,25 @@ nav li a {
   align-items: center;
   justify-content: center;
 
+  .wrapper {
+    max-width: 1440px;
+  }
+
   .row {
     position: relative;
+    display: flex;
     .col {
       display: flex;
       align-items: center;
       justify-content: center;
       position: relative;
+
+      .desktop.image {
+        width: 1063px;
+        max-width: 1440px;
+        display: flex;
+      }
+      
 
       &:nth-child(2) {
         display: flex;
