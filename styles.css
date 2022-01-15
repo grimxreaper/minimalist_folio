@@ -21,40 +21,33 @@ nav {
     padding: 80px 40px;
   }
 }
-
 nav .wrapper {
   height: 100%;
   width: 100%;
-  max-width: 1080px;
+  max-width: 1425px;
   margin: 0 auto;
 }
-
 nav .row,
 nav .col {
   display: flex;
   align-items: center;
   height: auto;
 }
-
 nav .col.left {
   justify-content: flex-start;
 }
-
 nav .row {
   justify-content: space-between;
   max-width: 1440px;
   height: 100%;
 }
-
 nav .col.right {
   justify-content: flex-end;
 }
-
 nav li {
   text-decoration: none;
   list-style: none;
 }
-
 nav li a {
   text-decoration: none;
   list-style: none;

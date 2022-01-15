@@ -28,44 +28,50 @@ nav {
   @media screen and (max-width: 1024px) {
     padding: 80px 40px;
   }
-}
-nav .wrapper {
-  height: 100%;
-  width: 100%;
-  max-width: 1080px;
-  margin: 0 auto;
-}
-nav .row,
-nav .col {
-  display: flex;
-  align-items: center;
-  height: auto;
-}
-nav .col.left {
-  justify-content: flex-start;
-}
-nav .row {
-  justify-content: space-between;
-  max-width: 1440px;
-  height: 100%;
-}
-nav .col.right {
-  justify-content: flex-end;
-}
 
-nav li {
-  text-decoration: none;
-  list-style: none;
-}
-nav li a {
-  text-decoration: none;
-  list-style: none;
-  color: $primary-color-grey;
-  letter-spacing: 2px;
-  font-size: 15px;
-  text-transform: uppercase;
-  font-family: $body;
-  font-weight: 200;
+  .wrapper {
+    height: 100%;
+    width: 100%;
+    max-width: 1425px;
+    margin: 0 auto;
+  }
+
+  .row,
+  .col {
+    display: flex;
+    align-items: center;
+    height: auto;
+  }
+
+  .col.left {
+    justify-content: flex-start;
+  }
+
+  .row {
+    justify-content: space-between;
+    max-width: 1440px;
+    height: 100%;
+  }
+
+  .col.right {
+    justify-content: flex-end;
+  }
+
+  li {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  li a {
+    text-decoration: none;
+    list-style: none;
+    color: $primary-color-grey;
+    letter-spacing: 2px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: $body;
+    font-weight: 200;
+  }
 }
 
 .menu {
@@ -81,7 +87,6 @@ nav li a {
   justify-content: center;
 
   .wrapper {
-
     @media screen and (max-width: 1024px) {
       padding: 0px 40px;
     }
