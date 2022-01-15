@@ -25,7 +25,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1022px) {
     padding: 80px 40px;
   }
 
@@ -37,6 +37,10 @@ nav {
 
     @media screen and (max-width: 1303px) {
       width: 1020px;
+    }
+
+    @media screen and (max-width: 1022px) {
+      width: 800px;
     }
   }
 
@@ -116,12 +120,26 @@ nav {
       justify-content: center;
       position: relative;
 
+      .desktop.mobile.image {
+        display: none;
+
+        @media screen and (max-width: 1022px) {
+          display: flex;
+          width: 800px;
+        }
+
+
+      }
+
       .desktop.tablet.image {
         display: none;
 
         @media screen and (max-width: 1303px) {
           display: flex;
           width: 1020px;
+        }
+        @media screen and (max-width: 1022px) {
+          display: none;
         }
       }
 

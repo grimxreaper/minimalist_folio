@@ -16,7 +16,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1022px) {
   nav {
     padding: 80px 40px;
   }
@@ -30,6 +30,11 @@ nav .wrapper {
 @media screen and (max-width: 1303px) {
   nav .wrapper {
     width: 1020px;
+  }
+}
+@media screen and (max-width: 1022px) {
+  nav .wrapper {
+    width: 800px;
   }
 }
 nav .row,
@@ -98,6 +103,15 @@ nav li a {
   justify-content: center;
   position: relative;
 }
+.block.hero.style-1 .row .col .desktop.mobile.image {
+  display: none;
+}
+@media screen and (max-width: 1022px) {
+  .block.hero.style-1 .row .col .desktop.mobile.image {
+    display: flex;
+    width: 800px;
+  }
+}
 .block.hero.style-1 .row .col .desktop.tablet.image {
   display: none;
 }
@@ -105,6 +119,11 @@ nav li a {
   .block.hero.style-1 .row .col .desktop.tablet.image {
     display: flex;
     width: 1020px;
+  }
+}
+@media screen and (max-width: 1022px) {
+  .block.hero.style-1 .row .col .desktop.tablet.image {
+    display: none;
   }
 }
 .block.hero.style-1 .row .col .desktop.image {
