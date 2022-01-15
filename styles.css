@@ -130,7 +130,7 @@ nav li a {
 }
 @media screen and (max-width: 375px) {
   .block.hero.style-1 .row .col .desktop.mobile.image {
-    width: 300px;
+    width: 310px;
   }
 }
 .block.hero.style-1 .row .col .desktop.tablet.image {
@@ -193,7 +193,8 @@ nav li a {
 }
 @media screen and (max-width: 375px) {
   .block.hero.style-1 .row .col:nth-child(2) {
-    width: 648px;
+    width: 340px;
+    margin-left: 20px;
   }
 }
 .block.hero.style-1 .row .col:nth-child(2) h1 {
@@ -229,9 +230,9 @@ nav li a {
 }
 @media screen and (max-width: 375px) {
   .block.hero.style-1 .row .col:nth-child(2) h1 {
-    font-size: 50px;
-    width: 455px;
-    line-height: 65px;
+    font-size: 45px;
+    width: 344px;
+    line-height: 55px;
   }
 }
 .block.hero.style-1 .row .col:nth-child(2) a {
