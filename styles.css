@@ -79,9 +79,19 @@ nav li a {
 .block.hero.style-1 .wrapper {
   max-width: 1440px;
 }
+@media screen and (max-width: 1024px) {
+  .block.hero.style-1 .wrapper {
+    padding: 0px 40px;
+  }
+}
 .block.hero.style-1 .row {
   position: relative;
   display: flex;
+}
+@media screen and (max-width: 800px) {
+  .block.hero.style-1 .row {
+    flex-direction: column;
+  }
 }
 .block.hero.style-1 .row .col {
   display: flex;
@@ -102,6 +112,12 @@ nav li a {
   bottom: 0px;
   height: 355px;
   width: 440px;
+}
+@media screen and (max-width: 800px) {
+  .block.hero.style-1 .row .col:nth-child(2) {
+    position: relative;
+    margin: auto;
+  }
 }
 .block.hero.style-1 .row .col:nth-child(2) h1 {
   padding-bottom: 41px;

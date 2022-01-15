@@ -82,11 +82,21 @@ nav li a {
 
   .wrapper {
     max-width: 1440px;
+
+
+    @media screen and (max-width: 1024px){
+      padding: 0px 40px;
+    }
   }
 
   .row {
     position: relative;
     display: flex;
+
+    @media screen and (max-width: 800px){
+      flex-direction: column;
+    }
+
     .col {
       display: flex;
       align-items: center;
@@ -108,6 +118,11 @@ nav li a {
         bottom: 0px;
         height: 355px;
         width: 440px;
+
+        @media screen and (max-width: 800px){
+          position: relative;
+          margin: auto;
+        }
 
         h1 {
           padding-bottom: 41px;
