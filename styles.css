@@ -99,7 +99,7 @@ nav li a {
 @media screen and (max-width: 1303px) {
   .block.hero.style-1 .row .col .desktop.tablet.image {
     display: flex;
-    width: 723px;
+    width: 1020px;
   }
 }
 .block.hero.style-1 .row .col .desktop.image {
