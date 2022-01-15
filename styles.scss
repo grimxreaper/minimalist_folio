@@ -109,10 +109,13 @@ nav {
     display: flex;
     justify-content: center;
 
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 816px) {
       flex-direction: column;
     }
 
+    @media screen and (max-width: 1022px) {
+      flex-direction: column;
+    }
 
     .col {
       display: flex;
@@ -128,7 +131,14 @@ nav {
           width: 800px;
         }
 
+        @media screen and (max-width: 816px) {
+          display: flex;
+          width: auto;
+        }
 
+        @media screen and (max-width: 375px) {
+          width: 300px;
+        }
       }
 
       .desktop.tablet.image {
@@ -170,14 +180,29 @@ nav {
         height: 413px;
         width: 512px;
 
-        // @media screen and (max-width: 800px) {
-        //   height: 365px;
-        //   width: 385px;
-        // }
 
         @media screen and (max-width: 1303px) {
           width: 755px;
           height: 412px;
+        }
+
+        @media screen and (max-width: 1022px) {
+          position: relative;
+          width: 700px;
+          height: 412px;
+        }
+
+        @media screen and (max-width: 816px) {
+          width: 648px;
+        }
+
+        @media screen and (max-width: 624px) {
+          width: 500px;
+          margin-left: 53px;
+        }
+
+        @media screen and (max-width: 375px) {
+          width: 648px;
         }
 
         h1 {
@@ -196,7 +221,22 @@ nav {
             font-size: 60px;
             width: 660px;
             line-height: 65px;
-            
+          }
+
+          @media screen and (max-width: 816px) {
+            font-size: 55px;
+            width: 660px;
+            line-height: 65px;
+          }
+
+          @media screen and (max-width: 624px) {
+            width: 500px;
+          }
+
+          @media screen and (max-width: 375px) {
+            font-size: 50px;
+            width: 455px;
+            line-height: 65px;
           }
         }
 
