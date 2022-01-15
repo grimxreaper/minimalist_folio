@@ -83,6 +83,42 @@ nav {
     text-transform: uppercase;
     font-family: $body;
     font-weight: 200;
+
+    @media (max-width: 558px) {
+      display: none;
+    }
+  }
+}
+
+.menu_button {
+  position: absolute;
+  top: 61px;
+  right: 19px;
+  width: 50px;
+  height: 40px;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  display: flex;
+  display: none;
+
+  @media (max-width: 558px) {
+    display: block;
+
+    .hamburger {
+      position: relative;
+      height: 1px;
+      width: 21px;
+      background-color: $primary-color-grey;
+      display: flex;
+      flex: none;
+      cursor: pointer;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 3px;
+      border-radius: 5px;
+    }
   }
 }
 
