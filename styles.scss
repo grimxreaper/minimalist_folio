@@ -13,7 +13,7 @@ $body: "Public Sans";
   padding: 0;
 }
 
-.page.wrapper{
+.page.wrapper {
   overflow: hidden;
 }
 
@@ -25,10 +25,10 @@ nav {
   justify-content: space-between;
   align-items: center;
 
-  @media screen and (max-width: 1024px){
+  @media screen and (max-width: 1024px) {
     padding: 80px 40px;
   }
-} 
+}
 nav .wrapper {
   height: 100%;
   width: 100%;
@@ -83,8 +83,7 @@ nav li a {
   .wrapper {
     max-width: 1440px;
 
-
-    @media screen and (max-width: 1024px){
+    @media screen and (max-width: 1024px) {
       padding: 0px 40px;
     }
   }
@@ -93,7 +92,7 @@ nav li a {
     position: relative;
     display: flex;
 
-    @media screen and (max-width: 800px){
+    @media screen and (max-width: 800px) {
       flex-direction: column;
     }
 
@@ -107,8 +106,14 @@ nav li a {
         width: 1063px;
         max-width: 1440px;
         display: flex;
+
+        @media screen and (max-width: 800px) {
+          display: block;
+          max-width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+        }
       }
-      
 
       &:nth-child(2) {
         display: flex;
@@ -119,7 +124,7 @@ nav li a {
         height: 355px;
         width: 440px;
 
-        @media screen and (max-width: 800px){
+        @media screen and (max-width: 800px) {
           position: relative;
           margin: auto;
         }
