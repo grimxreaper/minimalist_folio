@@ -116,7 +116,7 @@ nav {
         display: none;
 
         @media screen and (max-width: 1303px) {
-          display: block;
+          display: flex;
           width: 723px;
         }
       }
@@ -148,17 +148,14 @@ nav {
         height: 413px;
         width: 512px;
 
-        @media screen and (max-width: 800px) {
-          position: relative;
-          // margin: auto;
-          height: 365px;
-          width: 385px;
-        }
+        // @media screen and (max-width: 800px) {
+        //   height: 365px;
+        //   width: 385px;
+        // }
 
         @media screen and (max-width: 1303px) {
-          font-size: 50px;
-          width: 642px;
-          height: 279px;
+          width: 533px;
+          height: 288px;
         }
 
         h1 {
@@ -174,11 +171,7 @@ nav {
           left: 0px;
 
           @media screen and (max-width: 1303px) {
-            font-size: 50px;
-          }
-
-          @media screen and (max-width: 800px) {
-            font-size: 20px;
+            font-size: 41px;
           }
         }
 

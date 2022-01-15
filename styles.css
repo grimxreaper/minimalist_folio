@@ -98,7 +98,7 @@ nav li a {
 }
 @media screen and (max-width: 1303px) {
   .block.hero.style-1 .row .col .desktop.tablet.image {
-    display: block;
+    display: flex;
     width: 723px;
   }
 }
@@ -122,18 +122,10 @@ nav li a {
   height: 413px;
   width: 512px;
 }
-@media screen and (max-width: 800px) {
-  .block.hero.style-1 .row .col:nth-child(2) {
-    position: relative;
-    height: 365px;
-    width: 385px;
-  }
-}
 @media screen and (max-width: 1303px) {
   .block.hero.style-1 .row .col:nth-child(2) {
-    font-size: 50px;
-    width: 642px;
-    height: 279px;
+    width: 533px;
+    height: 288px;
   }
 }
 .block.hero.style-1 .row .col:nth-child(2) h1 {
@@ -150,12 +142,7 @@ nav li a {
 }
 @media screen and (max-width: 1303px) {
   .block.hero.style-1 .row .col:nth-child(2) h1 {
-    font-size: 50px;
-  }
-}
-@media screen and (max-width: 800px) {
-  .block.hero.style-1 .row .col:nth-child(2) h1 {
-    font-size: 20px;
+    font-size: 41px;
   }
 }
 .block.hero.style-1 .row .col:nth-child(2) a {
