@@ -27,6 +27,11 @@ nav .wrapper {
   max-width: 1294px;
   margin: 0 auto;
 }
+@media screen and (max-width: 1303px) {
+  nav .wrapper {
+    width: 1020px;
+  }
+}
 nav .row,
 nav .col {
   display: flex;
