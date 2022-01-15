@@ -150,6 +150,9 @@ nav {
           letter-spacing: -0.45px;
           line-height: 50px;
           color: $primary-color-grey;
+          width: 394px;
+          position: absolute;
+          left: 0px;
 
           @media screen and (max-width: 800px) {
             margin-bottom: 50px;

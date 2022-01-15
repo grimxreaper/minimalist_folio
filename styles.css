@@ -132,6 +132,9 @@ nav li a {
   letter-spacing: -0.45px;
   line-height: 50px;
   color: #33323d;
+  width: 394px;
+  position: absolute;
+  left: 0px;
 }
 @media screen and (max-width: 800px) {
   .block.hero.style-1 .row .col:nth-child(2) h1 {
