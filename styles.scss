@@ -81,7 +81,6 @@ nav li a {
   justify-content: center;
 
   .wrapper {
-    max-width: 1440px;
 
     @media screen and (max-width: 1024px) {
       padding: 0px 40px;
@@ -91,6 +90,8 @@ nav li a {
   .row {
     position: relative;
     display: flex;
+    justify-content: center;
+    background: #33323d;
 
     @media screen and (max-width: 800px) {
       flex-direction: column;
@@ -103,8 +104,8 @@ nav li a {
       position: relative;
 
       .desktop.image {
-        width: 1063px;
-        max-width: 1440px;
+        width: 1775px;
+        max-width: 1775px;
         display: flex;
 
         @media screen and (max-width: 800px) {
@@ -121,8 +122,12 @@ nav li a {
         position: absolute;
         flex-direction: column;
         bottom: 0px;
-        height: 355px;
-        width: 440px;
+        left: 0;
+        height: 512px;
+        width: 556px;
+        // .row.test {
+        //   display: flex;
+        // }
 
         @media screen and (max-width: 800px) {
           position: relative;
@@ -132,7 +137,7 @@ nav li a {
         }
 
         h1 {
-          padding-bottom: 41px;
+          padding-bottom: 61px;
           font-family: $h1;
           font-weight: 700;
           font-size: 50px;
@@ -142,6 +147,7 @@ nav li a {
 
           @media screen and (max-width: 800px) {
             margin-bottom: 50px;
+            padding-bottom: 41px;
           }
         }
 
@@ -150,13 +156,14 @@ nav li a {
         }
 
         img {
-          width: 290px;
+          width: 230px;
           position: absolute;
           bottom: 0px;
           left: 0px;
 
           @media screen and (max-width: 800px) {
             margin-top: 30px;
+            width: 290px;
           }
         }
       }
