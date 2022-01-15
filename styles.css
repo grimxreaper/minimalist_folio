@@ -124,8 +124,8 @@ nav li a {
 }
 @media screen and (max-width: 1303px) {
   .block.hero.style-1 .row .col:nth-child(2) {
-    width: 533px;
-    height: 288px;
+    width: 755px;
+    height: 410px;
   }
 }
 .block.hero.style-1 .row .col:nth-child(2) h1 {
@@ -142,7 +142,9 @@ nav li a {
 }
 @media screen and (max-width: 1303px) {
   .block.hero.style-1 .row .col:nth-child(2) h1 {
-    font-size: 41px;
+    font-size: 60px;
+    width: 660px;
+    line-height: 65px;
   }
 }
 .block.hero.style-1 .row .col:nth-child(2) a {

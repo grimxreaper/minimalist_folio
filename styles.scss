@@ -154,8 +154,8 @@ nav {
         // }
 
         @media screen and (max-width: 1303px) {
-          width: 533px;
-          height: 288px;
+          width: 755px;
+          height: 410px;
         }
 
         h1 {
@@ -171,7 +171,10 @@ nav {
           left: 0px;
 
           @media screen and (max-width: 1303px) {
-            font-size: 41px;
+            font-size: 60px;
+            width: 660px;
+            line-height: 65px;
+            
           }
         }
 
