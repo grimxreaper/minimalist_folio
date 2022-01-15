@@ -92,7 +92,7 @@ nav li a {
   position: relative;
 }
 .block.hero.style-1 .row .col .desktop.image {
-  width: 1775px;
+  width: 1293px;
   max-width: 1775px;
   display: flex;
 }
@@ -111,8 +111,8 @@ nav li a {
   flex-direction: column;
   bottom: 0px;
   left: 0;
-  height: 512px;
-  width: 556px;
+  height: 566px;
+  width: 703px;
 }
 @media screen and (max-width: 800px) {
   .block.hero.style-1 .row .col:nth-child(2) {

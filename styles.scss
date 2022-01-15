@@ -109,7 +109,7 @@ nav {
       position: relative;
 
       .desktop.image {
-        width: 1775px;
+        width: 1293px;
         max-width: 1775px;
         display: flex;
 
@@ -128,11 +128,8 @@ nav {
         flex-direction: column;
         bottom: 0px;
         left: 0;
-        height: 512px;
-        width: 556px;
-        // .row.test {
-        //   display: flex;
-        // }
+        height: 566px;
+        width: 703px;
 
         @media screen and (max-width: 800px) {
           position: relative;
