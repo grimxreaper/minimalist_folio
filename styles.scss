@@ -32,7 +32,7 @@ nav {
   .wrapper {
     height: 100%;
     width: 100%;
-    max-width: 1425px;
+    max-width: 1294px;
     margin: 0 auto;
   }
 
@@ -45,6 +45,10 @@ nav {
 
   .col.left {
     justify-content: flex-start;
+
+    img {
+      width: 78px;
+    }
   }
 
   .row {
@@ -128,8 +132,8 @@ nav {
         flex-direction: column;
         bottom: 0px;
         left: 0;
-        height: 566px;
-        width: 703px;
+        height: 413px;
+        width: 512px;
 
         @media screen and (max-width: 800px) {
           position: relative;

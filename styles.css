@@ -24,7 +24,7 @@ nav {
 nav .wrapper {
   height: 100%;
   width: 100%;
-  max-width: 1425px;
+  max-width: 1294px;
   margin: 0 auto;
 }
 nav .row,
@@ -35,6 +35,9 @@ nav .col {
 }
 nav .col.left {
   justify-content: flex-start;
+}
+nav .col.left img {
+  width: 78px;
 }
 nav .row {
   justify-content: space-between;
@@ -111,8 +114,8 @@ nav li a {
   flex-direction: column;
   bottom: 0px;
   left: 0;
-  height: 566px;
-  width: 703px;
+  height: 413px;
+  width: 512px;
 }
 @media screen and (max-width: 800px) {
   .block.hero.style-1 .row .col:nth-child(2) {
