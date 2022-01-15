@@ -126,7 +126,9 @@ nav li a {
 
         @media screen and (max-width: 800px) {
           position: relative;
-          margin: auto;
+          // margin: auto;
+          height: 365px;
+          width: 385px;
         }
 
         h1 {
@@ -137,6 +139,10 @@ nav li a {
           letter-spacing: -0.45px;
           line-height: 50px;
           color: $primary-color-grey;
+
+          @media screen and (max-width: 800px) {
+            margin-bottom: 50px;
+          }
         }
 
         a {
@@ -148,6 +154,10 @@ nav li a {
           position: absolute;
           bottom: 0px;
           left: 0px;
+
+          @media screen and (max-width: 800px) {
+            margin-top: 30px;
+          }
         }
       }
     }
