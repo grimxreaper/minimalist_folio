@@ -136,6 +136,10 @@ nav {
           width: auto;
         }
 
+        @media screen and (max-width: 624px) {
+          width: 500px;
+        }
+
         @media screen and (max-width: 375px) {
           width: 300px;
         }
@@ -198,7 +202,7 @@ nav {
 
         @media screen and (max-width: 624px) {
           width: 500px;
-          margin-left: 53px;
+          margin-left: -5px;
         }
 
         @media screen and (max-width: 375px) {

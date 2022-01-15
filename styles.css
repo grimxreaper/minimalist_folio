@@ -123,6 +123,11 @@ nav li a {
     width: auto;
   }
 }
+@media screen and (max-width: 624px) {
+  .block.hero.style-1 .row .col .desktop.mobile.image {
+    width: 500px;
+  }
+}
 @media screen and (max-width: 375px) {
   .block.hero.style-1 .row .col .desktop.mobile.image {
     width: 300px;
@@ -183,7 +188,7 @@ nav li a {
 @media screen and (max-width: 624px) {
   .block.hero.style-1 .row .col:nth-child(2) {
     width: 500px;
-    margin-left: 53px;
+    margin-left: -5px;
   }
 }
 @media screen and (max-width: 375px) {
