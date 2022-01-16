@@ -330,7 +330,7 @@ nav {
 
 .block.hero.style-2 {
   .wrapper {
-    margin-top: 162px;
+    margin: 162px 0px;
   }
 
   .row {
@@ -342,7 +342,7 @@ nav {
 
     &:nth-child(2){
       width: auto;
-      margin: 0px 131px;
+      margin: 0px 83px;
       border-top: 1px solid grey;
       border-bottom: 1px solid grey;
       padding-top: 50px;
@@ -355,10 +355,11 @@ nav {
 
       p {
 
-        font-size: 16px;
+        font-size: 20px;
         font-family: $body;
         line-height: 30px;
         margin: 20px 0px;
+        color: #5B5A62;
 
       }
     }

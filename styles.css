@@ -330,7 +330,7 @@ nav li a {
 }
 
 .block.hero.style-2 .wrapper {
-  margin-top: 162px;
+  margin: 162px 0px;
 }
 .block.hero.style-2 .row {
   display: flex;
@@ -338,7 +338,7 @@ nav li a {
 }
 .block.hero.style-2 .col:nth-child(2) {
   width: auto;
-  margin: 0px 131px;
+  margin: 0px 83px;
   border-top: 1px solid grey;
   border-bottom: 1px solid grey;
   padding-top: 50px;
@@ -349,10 +349,11 @@ nav li a {
   font-size: 40px;
 }
 .block.hero.style-2 .col:nth-child(2) p {
-  font-size: 16px;
+  font-size: 20px;
   font-family: "Public Sans";
   line-height: 30px;
   margin: 20px 0px;
+  color: #5B5A62;
 }
 .block.hero.style-2 img {
   width: 500px;
