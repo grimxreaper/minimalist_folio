@@ -339,6 +339,8 @@ nav li a {
 .block.hero.style-2 .row {
   display: flex;
   flex-direction: row;
+  width: 1297px;
+  gap: 100px;
 }
 .block.hero.style-2 .col:nth-child(2) {
   width: 400px;
