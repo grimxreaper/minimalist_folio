@@ -332,6 +332,28 @@ nav li a {
 .block.hero.style-2 .wrapper {
   margin-top: 162px;
 }
+.block.hero.style-2 .row {
+  display: flex;
+  flex-direction: row;
+}
+.block.hero.style-2 .col:nth-child(2) {
+  width: auto;
+  margin: 0px 131px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding-top: 50px;
+}
+.block.hero.style-2 .col:nth-child(2) h1 {
+  color: #33323d;
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 40px;
+}
+.block.hero.style-2 .col:nth-child(2) p {
+  font-size: 16px;
+  font-family: "Public Sans";
+  line-height: 30px;
+  margin: 20px 0px;
+}
 .block.hero.style-2 img {
   width: 500px;
 }
