@@ -315,14 +315,27 @@ nav li a {
 .block.hero.style-1 .row .col:nth-child(2) a {
   display: flex;
 }
-.block.hero.style-1 .row .col:nth-child(2) img {
+.block.hero.style-1 .row .col:nth-child(2) .btnActive {
   width: 230px;
   position: absolute;
   bottom: 0px;
   left: 0px;
 }
 @media screen and (max-width: 800px) {
-  .block.hero.style-1 .row .col:nth-child(2) img {
+  .block.hero.style-1 .row .col:nth-child(2) .btnActive {
+    margin-top: 30px;
+    width: 290px;
+  }
+}
+.block.hero.style-1 .row .col:nth-child(2) .btnHover {
+  width: 230px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .block.hero.style-1 .row .col:nth-child(2) .btnHover {
     margin-top: 30px;
     width: 290px;
   }

@@ -323,11 +323,24 @@ nav {
           display: flex;
         }
 
-        img {
+        .btnActive {
           width: 230px;
           position: absolute;
           bottom: 0px;
           left: 0px;
+
+          @media screen and (max-width: 800px) {
+            margin-top: 30px;
+            width: 290px;
+          }
+        }
+
+        .btnHover {
+          width: 230px;
+          position: absolute;
+          bottom: 0px;
+          left: 0px;
+          display: none;
 
           @media screen and (max-width: 800px) {
             margin-top: 30px;
