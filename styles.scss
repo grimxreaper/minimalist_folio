@@ -32,10 +32,9 @@ $body: "Public Sans";
 }
 
 .wrapper {
-  max-width: 1080px;
   margin: auto;
 }
-
+ 
 nav {
   height: 80px;
   padding: 75px 0;
@@ -355,11 +354,11 @@ nav {
   .col {
 
     &:nth-child(2){
-      width: auto;
-      margin: 0px 83px;
+      width: 400px;
       border-top: 1.4px solid $sec-color-lightgrey;
       border-bottom: 1.4px solid $sec-color-lightgrey;
-      padding-top: 50px;
+      padding-top: 30px 0px;
+      margin-left: 100px;
 
       h1 {
         color: $primary-color-grey;
@@ -372,9 +371,9 @@ nav {
         font-size: 20px;
         font-family: $body;
         line-height: 30px;
-        margin: 20px 0px;
         color: #5B5A62;
-
+        margin-top: 30px;
+        margin-bottom: 40px;
       }
 
       a {
@@ -383,6 +382,6 @@ nav {
     }
   }
   img {
-    width: 500px;
+    width: 634px;
   }
 }
