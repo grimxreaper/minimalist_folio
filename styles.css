@@ -547,6 +547,29 @@ nav li a {
   }
 }
 
+.block.hero.style-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.block.hero.style-3 .wrapper {
+  padding-bottom: 70px;
+}
+.block.hero.style-3 .row {
+  display: flex;
+  flex-direction: row;
+}
+.block.hero.style-3 .row .col {
+  display: flex;
+}
+.block.hero.style-3 .row .col :nth-child(2) {
+  display: flex;
+}
+.block.hero.style-3 h1 {
+  font-family: "Ibarra Real Nova", serif;
+  color: #33323d;
+  font-size: 30px;
+}
 .block.hero.style-3 .btn.style-1 {
   background: white;
   border: 1px solid #33323d;

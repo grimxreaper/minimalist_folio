@@ -540,6 +540,36 @@ nav {
 }
 
 .block.hero.style-3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .wrapper {
+    padding-bottom: 70px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+
+    .col {
+      display: flex;
+
+      :nth-child(2){
+        display: flex;
+
+      }
+    }
+
+  }
+
+  h1 {
+    font-family: $h1;
+    color: $primary-color-grey;
+    font-size: 30px;
+  }
+
+
   .btn.style-1 {
     @include btn($btn: basic);
   }
