@@ -327,12 +327,14 @@ nav li a {
     width: 290px;
   }
 }
+.block.hero.style-1 .row .col:nth-child(2) .btnActive:hover {
+  display: none;
+}
 .block.hero.style-1 .row .col:nth-child(2) .btnHover {
   width: 230px;
   position: absolute;
   bottom: 0px;
   left: 0px;
-  display: none;
 }
 @media screen and (max-width: 800px) {
   .block.hero.style-1 .row .col:nth-child(2) .btnHover {
@@ -358,6 +360,12 @@ nav li a {
 @media screen and (max-width: 1303px) {
   .block.hero.style-2 .row {
     width: 1000px;
+  }
+}
+@media screen and (max-width: 1022px) {
+  .block.hero.style-2 .row {
+    width: 840px;
+    margin-left: 50px;
   }
 }
 .block.hero.style-2 .col:nth-child(2) {

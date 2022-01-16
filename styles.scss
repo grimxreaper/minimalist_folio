@@ -335,12 +335,16 @@ nav {
           }
         }
 
+        .btnActive:hover {
+          display: none;
+        }
+
         .btnHover {
           width: 230px;
           position: absolute;
           bottom: 0px;
           left: 0px;
-          display: none;
+          // display: none;
 
           @media screen and (max-width: 800px) {
             margin-top: 30px;
@@ -372,6 +376,11 @@ nav {
     @media screen and (max-width: 1303px) {
       width: 1000px;
     }
+
+    @media screen and (max-width: 1022px) {
+      width: 840px;
+      margin-left: 50px;
+    }
   }
 
   .col {
@@ -389,6 +398,12 @@ nav {
         padding-top: 64px;
         width: 419px;
       }
+
+      // @media screen and (max-width: 1022px) {
+      //   position: relative;
+      //   width: 700px;
+      //   height: 412px;
+      // }
 
       h1 {
         color: $primary-color-grey;
