@@ -386,6 +386,10 @@ nav {
       margin-left: 5px;
       gap: 15px;
     }
+
+    @media screen and (max-width: 816px) {
+      flex-direction: column;
+    }
   }
 
   .col {
@@ -446,6 +450,18 @@ nav {
     @media screen and (max-width: 1303px) {
       display: flex;
       width: 363px;
+    }
+
+    @media screen and (max-width: 816px) {
+      display: none;
+    }
+  }
+
+  .mobile.portait {
+    display: none;
+
+    @media screen and (max-width: 816px) {
+      display: flex;
     }
   }
 }

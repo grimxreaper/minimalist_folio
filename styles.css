@@ -375,6 +375,11 @@ nav li a {
     gap: 15px;
   }
 }
+@media screen and (max-width: 816px) {
+  .block.hero.style-2 .row {
+    flex-direction: column;
+  }
+}
 .block.hero.style-2 .col:nth-child(2) {
   width: 400px;
   border-top: 1.4px solid #eaeaeb;
@@ -441,6 +446,19 @@ nav li a {
   .block.hero.style-2 .tablet.portrait {
     display: flex;
     width: 363px;
+  }
+}
+@media screen and (max-width: 816px) {
+  .block.hero.style-2 .tablet.portrait {
+    display: none;
+  }
+}
+.block.hero.style-2 .mobile.portait {
+  display: none;
+}
+@media screen and (max-width: 816px) {
+  .block.hero.style-2 .mobile.portait {
+    display: flex;
   }
 }
 
