@@ -566,6 +566,11 @@ nav li a {
   justify-content: flex-start;
 }
 .block.hero.style-3 .row .col :nth-child(2) {
+  width: 400px;
+  height: 2px;
+  border-top: 1.2px solid #33323d;
+}
+.block.hero.style-3 .row .col :nth-child(3) {
   display: flex;
   justify-content: flex-end;
 }

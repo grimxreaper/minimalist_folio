@@ -557,9 +557,14 @@ nav {
     .col {
       display: flex;
       justify-content: flex-start;
-      
 
       :nth-child(2){
+        width: 400px;
+        height: 2px;
+        border-top: 1.2px solid $primary-color-grey;
+      }
+
+      :nth-child(3){
         display: flex;
         justify-content: flex-end;
       }
