@@ -378,6 +378,20 @@ nav li a {
 @media screen and (max-width: 816px) {
   .block.hero.style-2 .row {
     flex-direction: column;
+    margin-left: 167px;
+  }
+}
+@media screen and (max-width: 618px) {
+  .block.hero.style-2 .row {
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 311px;
+    gap: 0px;
+  }
+}
+@media screen and (max-width: 618px) {
+  .block.hero.style-2 .col {
+    margin-bottom: 50px;
   }
 }
 .block.hero.style-2 .col:nth-child(2) {
@@ -398,6 +412,19 @@ nav li a {
 @media screen and (max-width: 885px) {
   .block.hero.style-2 .col:nth-child(2) {
     padding-top: 33px;
+  }
+}
+@media screen and (max-width: 816px) {
+  .block.hero.style-2 .col:nth-child(2) {
+    margin-top: 45px;
+    padding-bottom: 90px;
+  }
+}
+@media screen and (max-width: 618px) {
+  .block.hero.style-2 .col:nth-child(2) {
+    margin: 0px;
+    padding-bottom: 90px;
+    width: 429px;
   }
 }
 .block.hero.style-2 .col:nth-child(2) h1 {
@@ -459,6 +486,11 @@ nav li a {
 @media screen and (max-width: 816px) {
   .block.hero.style-2 .mobile.portait {
     display: flex;
+  }
+}
+@media screen and (max-width: 618px) {
+  .block.hero.style-2 .mobile.portait {
+    width: 474px;
   }
 }
 
