@@ -491,7 +491,7 @@ nav {
         }
       }
 
-      a {
+      .btn.style-1 {
         @include btn($btn: basic);
       }
     }
@@ -536,5 +536,11 @@ nav {
     @media screen and (max-width: 375px) {
       width: 350px;
     }
+  }
+}
+
+.block.hero.style-3{
+  .btn.style-1 {
+    @include btn($btn: basic);
   }
 }

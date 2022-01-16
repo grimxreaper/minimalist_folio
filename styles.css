@@ -488,7 +488,7 @@ nav li a {
     margin-bottom: 56px;
   }
 }
-.block.hero.style-2 .col:nth-child(2) a {
+.block.hero.style-2 .col:nth-child(2) .btn.style-1 {
   background: white;
   border: 1px solid #33323d;
   color: #33323d;
@@ -545,6 +545,19 @@ nav li a {
   .block.hero.style-2 .mobile.portait {
     width: 350px;
   }
+}
+
+.block.hero.style-3 .btn.style-1 {
+  background: white;
+  border: 1px solid #33323d;
+  color: #33323d;
+  font-size: 16px;
+  font-family: "Public Sans";
+  padding: 19px 40px;
+  text-decoration: none;
+  height: 300px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=styles.css.map */
