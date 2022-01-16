@@ -353,7 +353,7 @@ nav li a {
 }
 @media screen and (max-width: 816px) {
   .block.hero.style-2 .wrapper {
-    margin: 129px 0px;
+    margin: 108px 0px;
   }
 }
 .block.hero.style-2 .row {
@@ -399,7 +399,7 @@ nav li a {
     justify-content: center;
     flex-direction: column;
     gap: 0px;
-    width: 683px;
+    width: 717px;
     padding-left: 0px;
   }
 }
@@ -536,10 +536,10 @@ nav li a {
 }
 @media screen and (max-width: 466px) {
   .block.hero.style-2 .mobile.portait {
-    width: 420px;
+    width: 406px;
   }
 }
-@media screen and (max-width: 466px) {
+@media screen and (max-width: 375px) {
   .block.hero.style-2 .mobile.portait {
     width: 350px;
   }
