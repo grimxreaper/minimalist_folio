@@ -14,7 +14,6 @@ $body: "Public Sans";
 }
 
 @mixin btn($btn: basic) {
-
   background: white;
   border: 1px solid $primary-color-grey;
   color: $primary-color-grey;
@@ -34,7 +33,7 @@ $body: "Public Sans";
 .wrapper {
   margin: auto;
 }
- 
+
 nav {
   height: 80px;
   padding: 75px 0;
@@ -381,11 +380,16 @@ nav {
       width: 840px;
       margin-left: 50px;
     }
+
+    @media screen and (max-width: 885px) {
+      width: 788px;
+      margin-left: 5px;
+      gap: 15px;
+    }
   }
 
   .col {
-
-    &:nth-child(2){
+    &:nth-child(2) {
       width: 400px;
       border-top: 1.4px solid $sec-color-lightgrey;
       border-bottom: 1.4px solid $sec-color-lightgrey;
@@ -399,11 +403,9 @@ nav {
         width: 419px;
       }
 
-      // @media screen and (max-width: 1022px) {
-      //   position: relative;
-      //   width: 700px;
-      //   height: 412px;
-      // }
+      @media screen and (max-width: 885px) {
+        padding-top: 33px;
+      }
 
       h1 {
         color: $primary-color-grey;
@@ -415,7 +417,7 @@ nav {
         font-size: 20px;
         font-family: $body;
         line-height: 33px;
-        color: #5B5A62;
+        color: #5b5a62;
         margin-top: 30px;
         margin-bottom: 45px;
 
@@ -443,7 +445,7 @@ nav {
 
     @media screen and (max-width: 1303px) {
       display: flex;
-      width: 363px ;
+      width: 363px;
     }
   }
 }
