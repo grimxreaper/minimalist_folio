@@ -343,8 +343,8 @@ nav {
     &:nth-child(2){
       width: auto;
       margin: 0px 83px;
-      border-top: 1px solid grey;
-      border-bottom: 1px solid grey;
+      border-top: 1.4px solid $sec-color-lightgrey;
+      border-bottom: 1.4px solid $sec-color-lightgrey;
       padding-top: 50px;
 
       h1 {
