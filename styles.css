@@ -172,7 +172,7 @@ nav li a {
 }
 @media screen and (max-width: 375px) {
   .block.hero.style-1 .row .col .desktop.mobile.image {
-    width: 310px;
+    width: 341px;
   }
 }
 .block.hero.style-1 .row .col .desktop.tablet.image {
@@ -242,7 +242,7 @@ nav li a {
 @media screen and (max-width: 375px) {
   .block.hero.style-1 .row .col:nth-child(2) {
     width: 340px;
-    margin-left: 20px;
+    margin-left: 0px;
   }
 }
 .block.hero.style-1 .row .col:nth-child(2) h1 {
@@ -286,7 +286,7 @@ nav li a {
 @media screen and (max-width: 375px) {
   .block.hero.style-1 .row .col:nth-child(2) h1 {
     font-size: 45px;
-    width: 344px;
+    width: 350px;
     line-height: 55px;
   }
 }
