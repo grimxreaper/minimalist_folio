@@ -355,6 +355,13 @@ nav li a {
   margin: 20px 0px;
   color: #5B5A62;
 }
+.block.hero.style-2 .col:nth-child(2) a {
+  background: white;
+  border: 1px solid #33323d;
+  color: #33323d;
+  font-size: 16px;
+  font-family: "Public Sans";
+}
 .block.hero.style-2 img {
   width: 500px;
 }

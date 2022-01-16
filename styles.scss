@@ -13,6 +13,15 @@ $body: "Public Sans";
   padding: 0;
 }
 
+@mixin btn($btn: basic) {
+
+  background: white;
+  border: 1px solid $primary-color-grey;
+  color: $primary-color-grey;
+  font-size: 16px;
+  font-family: $body;
+}
+
 .page.wrapper {
   overflow: hidden;
 }
@@ -361,6 +370,10 @@ nav {
         margin: 20px 0px;
         color: #5B5A62;
 
+      }
+
+      a {
+        @include btn($btn: basic);
       }
     }
   }
