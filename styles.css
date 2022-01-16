@@ -384,6 +384,7 @@ nav li a {
   .block.hero.style-2 .row {
     flex-direction: column;
     margin-left: 167px;
+    width: 802px;
   }
 }
 @media screen and (max-width: 618px) {
@@ -527,11 +528,12 @@ nav li a {
 @media screen and (max-width: 816px) {
   .block.hero.style-2 .mobile.portait {
     display: flex;
+    width: 600px;
   }
 }
 @media screen and (max-width: 618px) {
   .block.hero.style-2 .mobile.portait {
-    width: 474px;
+    width: 625px;
   }
 }
 @media screen and (max-width: 466px) {

@@ -394,6 +394,7 @@ nav {
     @media screen and (max-width: 816px) {
       flex-direction: column;
       margin-left: 167px;
+      width: 802px;
     }
 
     @media screen and (max-width: 618px) {
@@ -521,10 +522,11 @@ nav {
 
     @media screen and (max-width: 816px) {
       display: flex;
+      width: 600px;
     }
 
     @media screen and (max-width: 618px) {
-      width: 474px;
+      width: 625px;
     }
 
     @media screen and (max-width: 466px) {
