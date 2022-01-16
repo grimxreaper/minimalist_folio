@@ -342,6 +342,11 @@ nav li a {
   width: 1297px;
   gap: 65px;
 }
+@media screen and (max-width: 1303px) {
+  .block.hero.style-2 .row {
+    width: 1000px;
+  }
+}
 .block.hero.style-2 .col:nth-child(2) {
   width: 400px;
   border-top: 1.4px solid #eaeaeb;
@@ -349,6 +354,13 @@ nav li a {
   padding-top: 30px 0px;
   margin-left: 100px;
   padding-top: 48px;
+}
+@media screen and (max-width: 1303px) {
+  .block.hero.style-2 .col:nth-child(2) {
+    margin-left: 45px;
+    padding-top: 64px;
+    width: 419px;
+  }
 }
 .block.hero.style-2 .col:nth-child(2) h1 {
   color: #33323d;
@@ -363,6 +375,12 @@ nav li a {
   margin-top: 30px;
   margin-bottom: 45px;
 }
+@media screen and (max-width: 1303px) {
+  .block.hero.style-2 .col:nth-child(2) p {
+    line-height: 37px;
+    margin-bottom: 56px;
+  }
+}
 .block.hero.style-2 .col:nth-child(2) a {
   background: white;
   border: 1px solid #33323d;
@@ -375,8 +393,22 @@ nav li a {
   letter-spacing: 2.5px;
   text-transform: uppercase;
 }
-.block.hero.style-2 img {
+.block.hero.style-2 .desktop.portrait {
   width: 634px;
+}
+@media screen and (max-width: 1303px) {
+  .block.hero.style-2 .desktop.portrait {
+    display: none;
+  }
+}
+.block.hero.style-2 .tablet.portrait {
+  display: none;
+}
+@media screen and (max-width: 1303px) {
+  .block.hero.style-2 .tablet.portrait {
+    display: flex;
+    width: 387px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

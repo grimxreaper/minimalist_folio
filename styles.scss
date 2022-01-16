@@ -355,6 +355,10 @@ nav {
     flex-direction: row;
     width: 1297px;
     gap: 65px;
+
+    @media screen and (max-width: 1303px) {
+      width: 1000px;
+    }
   }
 
   .col {
@@ -366,6 +370,12 @@ nav {
       padding-top: 30px 0px;
       margin-left: 100px;
       padding-top: 48px;
+
+      @media screen and (max-width: 1303px) {
+        margin-left: 45px;
+        padding-top: 64px;
+        width: 419px;
+      }
 
       h1 {
         color: $primary-color-grey;
@@ -381,6 +391,11 @@ nav {
         color: #5B5A62;
         margin-top: 30px;
         margin-bottom: 45px;
+
+        @media screen and (max-width: 1303px) {
+          line-height: 37px;
+          margin-bottom: 56px;
+        }
       }
 
       a {
@@ -388,7 +403,20 @@ nav {
       }
     }
   }
-  img {
+  .desktop.portrait {
     width: 634px;
+
+    @media screen and (max-width: 1303px) {
+      display: none;
+    }
+  }
+
+  .tablet.portrait {
+    display: none;
+
+    @media screen and (max-width: 1303px) {
+      display: flex;
+      width: 387px ;
+    }
   }
 }
