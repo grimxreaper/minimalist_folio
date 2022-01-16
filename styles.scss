@@ -364,6 +364,10 @@ nav {
 
   .wrapper {
     margin: 162px 0px;
+
+    @media screen and (max-width: 816px) {
+      margin: 129px 0px;
+    }
   }
 
   .row {
@@ -398,10 +402,25 @@ nav {
       margin-left: 311px;
       gap: 0px;
     }
+
+    @media screen and (max-width: 466px) {
+      justify-content: center;
+      flex-direction: column;
+      gap: 0px;
+      width: 683px;
+      padding-left: 0px;
+    }
+
+    @media screen and (max-width: 375px) {
+      justify-content: center;
+      flex-direction: column;
+      gap: 0px;
+      width: 683px;
+      padding-left: 11px;
+    }
   }
 
   .col {
-
     @media screen and (max-width: 618px) {
       margin-bottom: 50px;
     }
@@ -427,12 +446,28 @@ nav {
       @media screen and (max-width: 816px) {
         margin-top: 45px;
         padding-bottom: 90px;
+        margin-left: 3px;
+        width: 501px;
       }
 
       @media screen and (max-width: 618px) {
         margin: 0px;
         padding-bottom: 90px;
-        width: 429px;
+        width: 474px;
+      }
+
+      @media screen and (max-width: 466px) {
+        margin: 0px;
+        padding-bottom: 90px;
+        padding-left: 1px;
+        width: 360px;
+      }
+
+      @media screen and (max-width: 375px) {
+        margin: 0px;
+        padding-bottom: 90px;
+        padding-left: 20px;
+        width: 327px;
       }
 
       h1 {
@@ -453,10 +488,6 @@ nav {
           line-height: 37px;
           margin-bottom: 56px;
         }
-
-        // @media screen and (max-width: 618px) {
-        //   margin: 0px;
-        // }
       }
 
       a {
@@ -494,6 +525,14 @@ nav {
 
     @media screen and (max-width: 618px) {
       width: 474px;
+    }
+
+    @media screen and (max-width: 466px) {
+      width: 420px;
+    }
+
+    @media screen and (max-width: 466px) {
+      width: 350px;
     }
   }
 }
