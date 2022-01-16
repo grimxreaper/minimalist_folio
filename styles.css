@@ -558,17 +558,22 @@ nav li a {
 .block.hero.style-3 .row {
   display: flex;
   flex-direction: row;
+  width: 1297px;
+  justify-content: space-between;
 }
 .block.hero.style-3 .row .col {
   display: flex;
+  justify-content: flex-start;
 }
 .block.hero.style-3 .row .col :nth-child(2) {
   display: flex;
+  justify-content: flex-end;
 }
 .block.hero.style-3 h1 {
   font-family: "Ibarra Real Nova", serif;
   color: #33323d;
   font-size: 30px;
+  width: 264px;
 }
 .block.hero.style-3 .btn.style-1 {
   background: white;
@@ -578,9 +583,11 @@ nav li a {
   font-family: "Public Sans";
   padding: 19px 40px;
   text-decoration: none;
-  height: 300px;
+  /* height: 300px; */
   letter-spacing: 2.5px;
   text-transform: uppercase;
+  padding: 22px 36px;
+  /* height: 0px; */
 }
 
 /*# sourceMappingURL=styles.css.map */
