@@ -17,6 +17,11 @@ $body: "Public Sans";
   overflow: hidden;
 }
 
+.wrapper {
+  max-width: 1080px;
+  margin: auto;
+}
+
 nav {
   height: 80px;
   padding: 75px 0;
@@ -42,7 +47,6 @@ nav {
     @media screen and (max-width: 1022px) {
       width: 800px;
     }
-
   }
 
   .row,
@@ -221,7 +225,6 @@ nav {
         height: 413px;
         width: 512px;
 
-
         @media screen and (max-width: 1303px) {
           width: 755px;
           height: 412px;
@@ -324,3 +327,12 @@ nav {
 }
 
 //block hero 2
+
+.block.hero.style-2 {
+  .wrapper {
+    margin-top: 162px;
+  }
+  img {
+    width: 500px;
+  }
+}
