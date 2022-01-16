@@ -108,11 +108,6 @@ nav li a {
     border-radius: 5px;
   }
 }
-@media screen and (max-width: 450px) {
-  .menu_button {
-    margin-right: 23px;
-  }
-}
 
 .menu {
   display: flex;
