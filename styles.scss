@@ -42,6 +42,7 @@ nav {
     @media screen and (max-width: 1022px) {
       width: 800px;
     }
+
   }
 
   .row,
@@ -120,6 +121,10 @@ nav {
       border-radius: 5px;
     }
   }
+
+  @media screen and (max-width: 450px) {
+    margin-right: 23px;
+  }
 }
 
 .menu {
@@ -145,11 +150,11 @@ nav {
     display: flex;
     justify-content: center;
 
-    @media screen and (max-width: 816px) {
+    @media screen and (max-width: 1022px) {
       flex-direction: column;
     }
 
-    @media screen and (max-width: 1022px) {
+    @media screen and (max-width: 816px) {
       flex-direction: column;
     }
 

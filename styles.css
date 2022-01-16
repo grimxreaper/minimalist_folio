@@ -108,6 +108,11 @@ nav li a {
     border-radius: 5px;
   }
 }
+@media screen and (max-width: 450px) {
+  .menu_button {
+    margin-right: 23px;
+  }
+}
 
 .menu {
   display: flex;
@@ -129,12 +134,12 @@ nav li a {
   display: flex;
   justify-content: center;
 }
-@media screen and (max-width: 816px) {
+@media screen and (max-width: 1022px) {
   .block.hero.style-1 .row {
     flex-direction: column;
   }
 }
-@media screen and (max-width: 1022px) {
+@media screen and (max-width: 816px) {
   .block.hero.style-1 .row {
     flex-direction: column;
   }
