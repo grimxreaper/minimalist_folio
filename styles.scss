@@ -553,7 +553,7 @@ nav {
 
 //block hero 3
 
-.block.hero.style-3{
+.block.hero.style-3 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -564,13 +564,17 @@ nav {
     border-bottom: 1.2px solid $sec-color-lightgrey;
     display: flex;
 
-
     @media screen and (max-width: 1295px) {
       width: 360px;
     }
-
     @media screen and (max-width: 1022px) {
       width: 124px;
+    }
+    @media screen and (max-width: 885px) {
+      width: 107px;
+    }
+    @media screen and (max-width: 816px) {
+      display: none;
     }
   }
 
@@ -596,16 +600,25 @@ nav {
       width: 797px;
     }
 
+    @media screen and (max-width: 816px) {
+      flex-direction: column;
+      width: auto;
+      gap: 20px;
+    }
+
     .col {
       display: flex;
       justify-content: flex-start;
 
-      :nth-child(3){
+      @media screen and (max-width: 816px) {
+        justify-content: center;
+      }
+
+      :nth-child(3) {
         display: flex;
         justify-content: flex-end;
       }
     }
-
   }
 
   h1 {
@@ -621,8 +634,11 @@ nav {
       line-height: 50px;
       margin-left: 55px;
     }
+    @media screen and (max-width: 885px) {
+      margin-left: 0px;
+      line-height: 50px;
+    }
   }
-
 
   .btn.style-1 {
     background: white;
@@ -639,6 +655,10 @@ nav {
 
     @media screen and (max-width: 1022px) {
       padding: 18px 32px;
+    }
+    @media screen and (max-width: 816px) {
+      padding: 23px 29px;
+      height: 63px;
     }
   }
 }
