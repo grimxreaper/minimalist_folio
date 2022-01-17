@@ -552,6 +552,12 @@ nav li a {
   align-items: center;
   justify-content: center;
 }
+.block.hero.style-3 .line {
+  width: 733px;
+  height: 33px;
+  border-bottom: 1.2px solid #eaeaeb;
+  display: flex;
+}
 .block.hero.style-3 .wrapper {
   padding-bottom: 70px;
 }
@@ -564,11 +570,6 @@ nav li a {
 .block.hero.style-3 .row .col {
   display: flex;
   justify-content: flex-start;
-}
-.block.hero.style-3 .row .col :nth-child(2) {
-  width: 400px;
-  height: 2px;
-  border-top: 1.2px solid #33323d;
 }
 .block.hero.style-3 .row .col :nth-child(3) {
   display: flex;
@@ -586,13 +587,11 @@ nav li a {
   color: #33323d;
   font-size: 16px;
   font-family: "Public Sans";
-  padding: 19px 40px;
+  padding: 18px 36px;
   text-decoration: none;
-  /* height: 300px; */
+  height: 54px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  padding: 22px 36px;
-  /* height: 0px; */
 }
 
 /*# sourceMappingURL=styles.css.map */
