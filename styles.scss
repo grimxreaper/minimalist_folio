@@ -566,7 +566,7 @@ nav {
 
 
     @media screen and (max-width: 1295px) {
-      width: 418px;
+      width: 360px;
     }
 
     @media screen and (max-width: 1022px) {
@@ -589,7 +589,7 @@ nav {
     }
 
     @media screen and (max-width: 1022px) {
-      width: 840px;
+      width: 897px;
     }
 
     .col {
@@ -614,6 +614,8 @@ nav {
     @media screen and (max-width: 1022px) {
       font-size: 50px;
       width: 419px;
+      line-height: 50px;
+      margin-left: 55px;
     }
   }
 
@@ -630,5 +632,9 @@ nav {
     letter-spacing: 2.5px;
     text-transform: uppercase;
     margin-top: 15px;
+
+    @media screen and (max-width: 1022px) {
+      padding: 18px 32px;
+    }
   }
 }
