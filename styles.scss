@@ -440,6 +440,12 @@ nav {
         width: 419px;
       }
 
+      @media screen and (max-width: 1016px) {
+        margin-left: 45px;
+        padding-top: 35px;
+        width: 419px;
+      }
+
       @media screen and (max-width: 885px) {
         padding-top: 33px;
       }
@@ -539,6 +545,8 @@ nav {
   }
 }
 
+//block hero 3
+
 .block.hero.style-3{
   display: flex;
   align-items: center;
@@ -549,6 +557,11 @@ nav {
     height: 39px;
     border-bottom: 1.2px solid $sec-color-lightgrey;
     display: flex;
+
+
+    @media screen and (max-width: 1295px) {
+      width: 418px;
+    }
   }
 
   .wrapper {
@@ -561,12 +574,13 @@ nav {
     width: 1297px;
     justify-content: space-between;
 
+    @media screen and (max-width: 1295px) {
+      width: 1000px;
+    }
+
     .col {
       display: flex;
       justify-content: flex-start;
-
-      // :nth-child(2){
-      // }
 
       :nth-child(3){
         display: flex;
