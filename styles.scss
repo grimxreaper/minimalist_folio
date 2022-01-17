@@ -397,6 +397,10 @@ nav {
       width: auto;
     }
 
+    @media screen and (max-width: 668px) {
+      width: auto;
+    }
+
     @media screen and (max-width: 618px) {
       justify-content: center;
       flex-direction: column;
@@ -463,6 +467,11 @@ nav {
         width: 667px;
       }
 
+      @media screen and (max-width: 668px) {
+        padding-bottom: 90px;
+        width: 619px;
+      }
+
       @media screen and (max-width: 618px) {
         margin: 0px;
         padding-bottom: 90px;
@@ -506,6 +515,9 @@ nav {
           font-size: 25px;
           width: 611px;
         }
+        @media screen and (max-width: 668px) {
+          width: 588px;
+        }
       }
 
       .btn.style-1 {
@@ -540,6 +552,10 @@ nav {
     @media screen and (max-width: 816px) {
       display: flex;
       width: 667px;
+    }
+
+    @media screen and (max-width: 668px) {
+      width: 619px;
     }
 
     @media screen and (max-width: 618px) {
