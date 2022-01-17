@@ -456,7 +456,7 @@ nav li a {
     margin-top: 45px;
     padding-bottom: 90px;
     margin-left: 3px;
-    width: 604px;
+    width: 667px;
   }
 }
 @media screen and (max-width: 618px) {
@@ -505,6 +505,7 @@ nav li a {
   .block.hero.style-2 .col:nth-child(2) p {
     line-height: 45px;
     font-size: 25px;
+    width: 611px;
   }
 }
 .block.hero.style-2 .col:nth-child(2) .btn.style-1 {
