@@ -554,7 +554,7 @@ nav li a {
 }
 .block.hero.style-3 .line {
   width: 733px;
-  height: 33px;
+  height: 39px;
   border-bottom: 1.2px solid #eaeaeb;
   display: flex;
 }
@@ -592,6 +592,7 @@ nav li a {
   height: 54px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */

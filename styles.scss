@@ -546,7 +546,7 @@ nav {
 
   .line {
     width: 733px;
-    height: 33px;
+    height: 39px;
     border-bottom: 1.2px solid $sec-color-lightgrey;
     display: flex;
   }
@@ -595,5 +595,6 @@ nav {
     height: 54px;
     letter-spacing: 2.5px;
     text-transform: uppercase;
+    margin-top: 10px;
   }
 }
