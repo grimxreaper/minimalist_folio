@@ -460,7 +460,7 @@ nav {
         margin-top: 45px;
         padding-bottom: 90px;
         margin-left: 3px;
-        width: 501px;
+        width: 604px;
       }
 
       @media screen and (max-width: 618px) {
@@ -500,6 +500,10 @@ nav {
         @media screen and (max-width: 1303px) {
           line-height: 37px;
           margin-bottom: 56px;
+        }
+        @media screen and (max-width: 816px) {
+          line-height: 45px;
+          font-size: 25px;
         }
       }
 
