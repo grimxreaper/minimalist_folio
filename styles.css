@@ -433,6 +433,13 @@ nav li a {
     width: 419px;
   }
 }
+@media screen and (max-width: 1022px) {
+  .block.hero.style-2 .col:nth-child(2) {
+    margin-left: 45px;
+    padding-top: 35px;
+    width: 419px;
+  }
+}
 @media screen and (max-width: 1016px) {
   .block.hero.style-2 .col:nth-child(2) {
     margin-left: 45px;
@@ -560,7 +567,7 @@ nav li a {
   justify-content: center;
 }
 .block.hero.style-3 .line {
-  width: 733px;
+  width: 662px;
   height: 39px;
   border-bottom: 1.2px solid #eaeaeb;
   display: flex;
@@ -568,6 +575,11 @@ nav li a {
 @media screen and (max-width: 1295px) {
   .block.hero.style-3 .line {
     width: 418px;
+  }
+}
+@media screen and (max-width: 1022px) {
+  .block.hero.style-3 .line {
+    width: 124px;
   }
 }
 .block.hero.style-3 .wrapper {
@@ -584,6 +596,11 @@ nav li a {
     width: 1000px;
   }
 }
+@media screen and (max-width: 1022px) {
+  .block.hero.style-3 .row {
+    width: 840px;
+  }
+}
 .block.hero.style-3 .row .col {
   display: flex;
   justify-content: flex-start;
@@ -595,8 +612,15 @@ nav li a {
 .block.hero.style-3 h1 {
   font-family: "Ibarra Real Nova", serif;
   color: #33323d;
-  font-size: 30px;
-  width: 264px;
+  font-size: 42px;
+  width: 372px;
+  line-height: 45px;
+}
+@media screen and (max-width: 1022px) {
+  .block.hero.style-3 h1 {
+    font-size: 50px;
+    width: 419px;
+  }
 }
 .block.hero.style-3 .btn.style-1 {
   background: white;
@@ -604,7 +628,7 @@ nav li a {
   color: #33323d;
   font-size: 16px;
   font-family: "Public Sans";
-  padding: 18px 36px;
+  padding: 18px 35px;
   text-decoration: none;
   height: 54px;
   letter-spacing: 2.5px;

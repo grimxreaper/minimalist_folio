@@ -440,6 +440,12 @@ nav {
         width: 419px;
       }
 
+      @media screen and (max-width: 1022px) {
+        margin-left: 45px;
+        padding-top: 35px;
+        width: 419px;
+      }
+
       @media screen and (max-width: 1016px) {
         margin-left: 45px;
         padding-top: 35px;
@@ -553,7 +559,7 @@ nav {
   justify-content: center;
 
   .line {
-    width: 733px;
+    width: 662px;
     height: 39px;
     border-bottom: 1.2px solid $sec-color-lightgrey;
     display: flex;
@@ -561,6 +567,10 @@ nav {
 
     @media screen and (max-width: 1295px) {
       width: 418px;
+    }
+
+    @media screen and (max-width: 1022px) {
+      width: 124px;
     }
   }
 
@@ -578,6 +588,10 @@ nav {
       width: 1000px;
     }
 
+    @media screen and (max-width: 1022px) {
+      width: 840px;
+    }
+
     .col {
       display: flex;
       justify-content: flex-start;
@@ -593,8 +607,14 @@ nav {
   h1 {
     font-family: $h1;
     color: $primary-color-grey;
-    font-size: 30px;
-    width: 264px;
+    font-size: 42px;
+    width: 372px;
+    line-height: 45px;
+
+    @media screen and (max-width: 1022px) {
+      font-size: 50px;
+      width: 419px;
+    }
   }
 
 
@@ -604,7 +624,7 @@ nav {
     color: #33323d;
     font-size: 16px;
     font-family: "Public Sans";
-    padding: 18px 36px;
+    padding: 18px 35px;
     text-decoration: none;
     height: 54px;
     letter-spacing: 2.5px;
