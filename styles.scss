@@ -592,6 +592,10 @@ nav {
       width: 897px;
     }
 
+    @media screen and (max-width: 885px) {
+      width: 797px;
+    }
+
     .col {
       display: flex;
       justify-content: flex-start;

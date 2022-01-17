@@ -601,6 +601,11 @@ nav li a {
     width: 897px;
   }
 }
+@media screen and (max-width: 885px) {
+  .block.hero.style-3 .row {
+    width: 797px;
+  }
+}
 .block.hero.style-3 .row .col {
   display: flex;
   justify-content: flex-start;
