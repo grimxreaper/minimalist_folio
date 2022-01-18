@@ -399,13 +399,18 @@ nav li a {
     gap: 0px;
   }
 }
+@media screen and (max-width: 516px) {
+  .block.hero.style-2 .row {
+    width: 450px;
+    margin: auto;
+  }
+}
 @media screen and (max-width: 466px) {
   .block.hero.style-2 .row {
     justify-content: center;
     flex-direction: column;
     gap: 0px;
-    width: 717px;
-    padding-left: 0px;
+    width: auto;
   }
 }
 @media screen and (max-width: 375px) {
@@ -477,12 +482,18 @@ nav li a {
     width: 517px;
   }
 }
+@media screen and (max-width: 516px) {
+  .block.hero.style-2 .col:nth-child(2) {
+    margin: auto;
+    width: 393px;
+  }
+}
 @media screen and (max-width: 466px) {
   .block.hero.style-2 .col:nth-child(2) {
     margin: 0px;
     padding-bottom: 90px;
     padding-left: 1px;
-    width: 360px;
+    width: 406px;
   }
 }
 @media screen and (max-width: 375px) {
@@ -496,7 +507,7 @@ nav li a {
 .block.hero.style-2 .col:nth-child(2) h1 {
   color: #33323d;
   font-family: "Ibarra Real Nova", serif;
-  font-size: 50px;
+  font-size: 60px;
 }
 .block.hero.style-2 .col:nth-child(2) p {
   font-size: 20px;
@@ -522,6 +533,16 @@ nav li a {
 @media screen and (max-width: 668px) {
   .block.hero.style-2 .col:nth-child(2) p {
     width: 588px;
+  }
+}
+@media screen and (max-width: 618px) {
+  .block.hero.style-2 .col:nth-child(2) p {
+    width: 501px;
+  }
+}
+@media screen and (max-width: 516px) {
+  .block.hero.style-2 .col:nth-child(2) p {
+    width: 450px;
   }
 }
 .block.hero.style-2 .col:nth-child(2) .btn.style-1 {
@@ -575,6 +596,11 @@ nav li a {
 @media screen and (max-width: 618px) {
   .block.hero.style-2 .mobile.portait {
     width: 517px;
+  }
+}
+@media screen and (max-width: 516px) {
+  .block.hero.style-2 .mobile.portait {
+    width: 450px;
   }
 }
 @media screen and (max-width: 466px) {

@@ -407,13 +407,17 @@ nav {
       margin: auto;
       gap: 0px;
     }
+   @media screen and (max-width: 516px) {
+      width: 450px;
+      margin: auto;
+    }
+ 
 
     @media screen and (max-width: 466px) {
       justify-content: center;
       flex-direction: column;
       gap: 0px;
-      width: 717px;
-      padding-left: 0px;
+      width: auto;
     }
 
     @media screen and (max-width: 375px) {
@@ -477,12 +481,16 @@ nav {
         padding-bottom: 90px;
         width: 517px;
       }
+      @media screen and (max-width: 516px) {
+        margin: auto;
+        width: 393px;
+      }
 
       @media screen and (max-width: 466px) {
         margin: 0px;
         padding-bottom: 90px;
         padding-left: 1px;
-        width: 360px;
+        width: 406px;
       }
 
       @media screen and (max-width: 375px) {
@@ -495,7 +503,7 @@ nav {
       h1 {
         color: $primary-color-grey;
         font-family: $h1;
-        font-size: 50px;
+        font-size: 60px;
       }
 
       p {
@@ -517,6 +525,12 @@ nav {
         }
         @media screen and (max-width: 668px) {
           width: 588px;
+        }
+        @media screen and (max-width: 618px) {
+          width: 501px;
+        }
+        @media screen and (max-width: 516px) {
+          width: 450px;
         }
       }
 
@@ -560,6 +574,10 @@ nav {
 
     @media screen and (max-width: 618px) {
       width: 517px;
+    }
+
+    @media screen and (max-width: 516px) {
+      width: 450px;
     }
 
     @media screen and (max-width: 466px) {
@@ -626,6 +644,7 @@ nav {
       width: auto;
       gap: 20px;
     }
+
 
     .col {
       display: flex;
