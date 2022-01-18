@@ -713,6 +713,12 @@ nav li a {
     line-height: 50px;
   }
 }
+@media screen and (max-width: 375px) {
+  .block.hero.style-3 h1 {
+    width: 350px;
+    text-align: center;
+  }
+}
 .block.hero.style-3 .btn.style-1 {
   background: white;
   border: 1px solid #33323d;

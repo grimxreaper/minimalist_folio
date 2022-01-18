@@ -679,6 +679,10 @@ nav {
       margin-left: 0px;
       line-height: 50px;
     }
+    @media screen and (max-width: 375px) {
+      width: 350px;
+      text-align: center;
+    }
   }
 
   .btn.style-1 {
