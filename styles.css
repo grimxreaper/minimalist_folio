@@ -753,7 +753,6 @@ footer {
 footer .row {
   height: 106px;
   width: 889px;
-  text-align: left;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -766,8 +765,33 @@ footer .row {
     margin: 10px 0 9px;
   }
 }
+footer .row .col {
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+footer .row .col :nth-child(2) {
+  width: 500px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+footer .row .col :nth-child(3) {
+  height: 100px;
+  width: 400px;
+}
 footer .row img {
   width: 100px;
+}
+footer ul {
+  text-decoration: none;
+}
+footer li {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Public Sans";
+  color: white;
+  list-style: none;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -717,7 +717,6 @@ footer {
   .row {
     height: 106px;
     width: 889px;
-    text-align: left;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -729,9 +728,43 @@ footer {
       margin: 10px 0 9px;
     }
 
+    .col {
+      display: flex;
+      justify-content: center;
+      width: auto;
+  
+  
+      :nth-child(2){
+        width: 500px;
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+  
+      }
+  
+      :nth-child(3){
+        height: 100px;
+        width: 400px;
+      }
+    }
+
     img {
       width: 100px;
-
     }
+  }
+
+  
+
+  ul {
+    text-decoration: none;
+  }
+
+  li {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $body;
+    color: white;
+    list-style: none;
+
   }
 }
