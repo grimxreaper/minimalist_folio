@@ -795,6 +795,8 @@ footer li {
   font-family: "Public Sans";
   color: white;
   list-style: none;
+  font-size: 19px;
+  letter-spacing: 3px;
 }
 footer i.fab.fa-github,
 footer i.fab.fa-twitter,
