@@ -772,10 +772,12 @@ footer .row .col:nth-child(2) {
   width: 500px;
   flex-direction: row;
   display: flex;
+  align-self: center;
 }
 footer .row .col:nth-child(3) {
   height: 100px;
   width: 400px;
+  align-items: center;
 }
 footer .row img {
   width: 100px;

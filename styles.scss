@@ -735,11 +735,13 @@ footer {
         width: 500px;
         flex-direction: row;
         display: flex;
+        align-self: center;
       }
 
       &:nth-child(3) {
         height: 100px;
         width: 400px;
+        align-items: center;
       }
     }
 
