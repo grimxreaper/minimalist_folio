@@ -791,9 +791,10 @@ footer li {
   color: white;
   list-style: none;
 }
-footer i.fab.fa-github {
+footer i.fab.fa-github,
+footer i.fab.fa-twitter,
+footer i.fab.fa-linkedin {
   color: white;
-  z-index: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
