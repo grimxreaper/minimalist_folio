@@ -407,11 +407,10 @@ nav {
       margin: auto;
       gap: 0px;
     }
-   @media screen and (max-width: 516px) {
+    @media screen and (max-width: 516px) {
       width: 450px;
       margin: auto;
     }
- 
 
     @media screen and (max-width: 466px) {
       justify-content: center;
@@ -646,7 +645,6 @@ nav {
       gap: 20px;
     }
 
-
     .col {
       display: flex;
       justify-content: flex-start;
@@ -732,17 +730,14 @@ footer {
       display: flex;
       justify-content: center;
       width: auto;
-  
-  
-      &:nth-child(2){
+
+      &:nth-child(2) {
         width: 500px;
         flex-direction: row;
         display: flex;
-        justify-content: space-between;
-  
       }
-  
-    &:nth-child(3){
+
+      &:nth-child(3) {
         height: 100px;
         width: 400px;
       }
@@ -756,6 +751,7 @@ footer {
   ul {
     text-decoration: none;
     display: flex;
+    gap: 15px;
   }
 
   li {
@@ -764,7 +760,6 @@ footer {
     font-family: $body;
     color: white;
     list-style: none;
-
   }
 
   i.fab.fa-github,
@@ -772,5 +767,4 @@ footer {
   i.fab.fa-linkedin {
     color: white;
   }
-  
 }

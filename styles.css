@@ -772,7 +772,6 @@ footer .row .col:nth-child(2) {
   width: 500px;
   flex-direction: row;
   display: flex;
-  justify-content: space-between;
 }
 footer .row .col:nth-child(3) {
   height: 100px;
@@ -784,6 +783,7 @@ footer .row img {
 footer ul {
   text-decoration: none;
   display: flex;
+  gap: 15px;
 }
 footer li {
   text-decoration: none;
