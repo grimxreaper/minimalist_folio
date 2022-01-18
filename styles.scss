@@ -736,6 +736,7 @@ footer {
         flex-direction: row;
         display: flex;
         align-self: center;
+        justify-content: center;
       }
 
       &:nth-child(3) {
@@ -769,5 +770,6 @@ footer {
   i.fab.fa-twitter,
   i.fab.fa-linkedin {
     color: white;
+    font-size: 30px;
   }
 }

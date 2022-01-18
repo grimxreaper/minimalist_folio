@@ -773,6 +773,7 @@ footer .row .col:nth-child(2) {
   flex-direction: row;
   display: flex;
   align-self: center;
+  justify-content: center;
 }
 footer .row .col:nth-child(3) {
   height: 100px;
@@ -799,6 +800,7 @@ footer i.fab.fa-github,
 footer i.fab.fa-twitter,
 footer i.fab.fa-linkedin {
   color: white;
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */
