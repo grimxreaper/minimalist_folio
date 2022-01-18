@@ -744,4 +744,27 @@ nav li a {
   }
 }
 
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #33323d;
+}
+footer .row {
+  height: 55px;
+  width: 889px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 980px) {
+  footer .row {
+    flex-direction: column-reverse;
+    float: none;
+    text-align: center;
+    margin: 10px 0 9px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
