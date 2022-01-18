@@ -783,6 +783,7 @@ footer .row img {
 }
 footer ul {
   text-decoration: none;
+  display: flex;
 }
 footer li {
   text-decoration: none;
