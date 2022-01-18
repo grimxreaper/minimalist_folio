@@ -778,6 +778,7 @@ footer .row .col:nth-child(3) {
   height: 100px;
   width: 400px;
   align-items: center;
+  justify-content: flex-end;
 }
 footer .row img {
   width: 100px;
