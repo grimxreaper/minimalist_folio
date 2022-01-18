@@ -418,8 +418,6 @@ nav li a {
     justify-content: center;
     flex-direction: column;
     gap: 0px;
-    width: 683px;
-    padding-left: 11px;
   }
 }
 @media screen and (max-width: 618px) {
@@ -501,7 +499,7 @@ nav li a {
     margin: 0px;
     padding-bottom: 90px;
     padding-left: 20px;
-    width: 327px;
+    width: 350px;
   }
 }
 .block.hero.style-2 .col:nth-child(2) h1 {
@@ -543,6 +541,11 @@ nav li a {
 @media screen and (max-width: 516px) {
   .block.hero.style-2 .col:nth-child(2) p {
     width: 450px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .block.hero.style-2 .col:nth-child(2) p {
+    width: 318px;
   }
 }
 .block.hero.style-2 .col:nth-child(2) .btn.style-1 {

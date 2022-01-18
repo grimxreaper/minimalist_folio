@@ -424,8 +424,6 @@ nav {
       justify-content: center;
       flex-direction: column;
       gap: 0px;
-      width: 683px;
-      padding-left: 11px;
     }
   }
 
@@ -497,7 +495,7 @@ nav {
         margin: 0px;
         padding-bottom: 90px;
         padding-left: 20px;
-        width: 327px;
+        width: 350px;
       }
 
       h1 {
@@ -531,6 +529,9 @@ nav {
         }
         @media screen and (max-width: 516px) {
           width: 450px;
+        }
+        @media screen and (max-width: 375px) {
+          width: 318px;
         }
       }
 
