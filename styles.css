@@ -746,8 +746,6 @@ nav li a {
 
 footer {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
   background-color: #33323d;
 }
 footer .row {
@@ -770,13 +768,13 @@ footer .row .col {
   justify-content: center;
   width: auto;
 }
-footer .row .col :nth-child(2) {
+footer .row .col:nth-child(2) {
   width: 500px;
   flex-direction: row;
   display: flex;
   justify-content: space-between;
 }
-footer .row .col :nth-child(3) {
+footer .row .col:nth-child(3) {
   height: 100px;
   width: 400px;
 }
@@ -792,6 +790,10 @@ footer li {
   font-family: "Public Sans";
   color: white;
   list-style: none;
+}
+footer i.fab.fa-github {
+  color: white;
+  z-index: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

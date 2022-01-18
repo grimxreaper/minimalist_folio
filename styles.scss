@@ -710,8 +710,8 @@ nav {
 
 footer {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  // align-items: center;
+  // justify-content: space-around;
   background-color: $primary-color-grey;
 
   .row {
@@ -734,7 +734,7 @@ footer {
       width: auto;
   
   
-      :nth-child(2){
+      &:nth-child(2){
         width: 500px;
         flex-direction: row;
         display: flex;
@@ -742,7 +742,7 @@ footer {
   
       }
   
-      :nth-child(3){
+    &:nth-child(3){
         height: 100px;
         width: 400px;
       }
@@ -752,8 +752,6 @@ footer {
       width: 100px;
     }
   }
-
-  
 
   ul {
     text-decoration: none;
@@ -765,6 +763,12 @@ footer {
     font-family: $body;
     color: white;
     list-style: none;
+
+  }
+
+  i.fab.fa-github {
+    color: white;
+    z-index: 0;
 
   }
 }
