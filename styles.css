@@ -751,7 +751,7 @@ footer {
   background-color: #33323d;
 }
 footer .row {
-  height: 55px;
+  height: 106px;
   width: 889px;
   text-align: left;
   display: flex;
@@ -765,6 +765,9 @@ footer .row {
     text-align: center;
     margin: 10px 0 9px;
   }
+}
+footer .row img {
+  width: 100px;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -715,7 +715,7 @@ footer {
   background-color: $primary-color-grey;
 
   .row {
-    height: 55px;
+    height: 106px;
     width: 889px;
     text-align: left;
     display: flex;
@@ -727,6 +727,11 @@ footer {
       float: none;
       text-align: center;
       margin: 10px 0 9px;
+    }
+
+    img {
+      width: 100px;
+
     }
   }
 }
