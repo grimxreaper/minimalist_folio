@@ -805,11 +805,16 @@ footer .row .col:nth-child(3) {
 }
 @media (max-width: 620px) {
   footer .row .col:nth-child(3) {
-    width: 314px;
+    width: 331px;
   }
 }
 footer .row img {
   width: 100px;
+}
+@media (max-width: 620px) {
+  footer .row img {
+    width: 120px;
+  }
 }
 @media (max-width: 620px) {
   footer .navigation {

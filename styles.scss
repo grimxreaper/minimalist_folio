@@ -765,13 +765,19 @@ footer {
         flex-direction: row;
 
         @media (max-width: 620px) {
-          width: 314px;
+          width: 331px;
         }
       }
     }
 
     img {
       width: 100px;
+
+
+    @media (max-width: 620px) {
+      width: 120px;
+    }
+
     }
   }
 
