@@ -714,22 +714,40 @@ footer {
 
   .row {
     height: 106px;
-    width: 889px;
+    width: 1440px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0px 60px;
 
-    @media (max-width: 980px) {
-      flex-direction: column-reverse;
-      float: none;
-      text-align: center;
-      margin: 10px 0 9px;
+    @media (max-width: 1379px) {
+      width: auto;
+      gap: 100px;
+      padding: 0px 60px;
+    }
+
+    @media (max-width: 1272px) {
+      width: auto;
+      gap: 100px;
+      padding: 0px 60px;
+    }
+
+    @media (max-width: 620px) {
+      flex-direction: column;
+      height: 387px;
+      display: block;
+      padding: 50px 0px;
+      margin-bottom: 63px;
     }
 
     .col {
       display: flex;
       justify-content: center;
       width: auto;
+
+      @media (max-width: 620px) {
+        padding-bottom: 33px;
+      }
 
       &:nth-child(2) {
         width: 500px;
@@ -744,11 +762,24 @@ footer {
         width: 400px;
         align-items: center;
         justify-content: flex-end;
+        flex-direction: row;
+
+        @media (max-width: 620px) {
+          width: 314px;
+        }
       }
     }
 
     img {
       width: 100px;
+    }
+  }
+
+  .navigation {
+    @media (max-width: 620px) {
+      flex-direction: column;
+      text-align: center;
+      gap: 43px;
     }
   }
 
@@ -773,5 +804,9 @@ footer {
   i.fab.fa-linkedin {
     color: white;
     font-size: 30px;
+
+    @media (max-width: 620px) {
+      font-size: 45px;
+    }
   }
 }

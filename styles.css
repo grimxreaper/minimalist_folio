@@ -750,23 +750,44 @@ footer {
 }
 footer .row {
   height: 106px;
-  width: 889px;
+  width: 1440px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0px 60px;
 }
-@media (max-width: 980px) {
+@media (max-width: 1379px) {
   footer .row {
-    flex-direction: column-reverse;
-    float: none;
-    text-align: center;
-    margin: 10px 0 9px;
+    width: auto;
+    gap: 100px;
+    padding: 0px 60px;
+  }
+}
+@media (max-width: 1272px) {
+  footer .row {
+    width: auto;
+    gap: 100px;
+    padding: 0px 60px;
+  }
+}
+@media (max-width: 620px) {
+  footer .row {
+    flex-direction: column;
+    height: 387px;
+    display: block;
+    padding: 50px 0px;
+    margin-bottom: 63px;
   }
 }
 footer .row .col {
   display: flex;
   justify-content: center;
   width: auto;
+}
+@media (max-width: 620px) {
+  footer .row .col {
+    padding-bottom: 33px;
+  }
 }
 footer .row .col:nth-child(2) {
   width: 500px;
@@ -780,9 +801,22 @@ footer .row .col:nth-child(3) {
   width: 400px;
   align-items: center;
   justify-content: flex-end;
+  flex-direction: row;
+}
+@media (max-width: 620px) {
+  footer .row .col:nth-child(3) {
+    width: 314px;
+  }
 }
 footer .row img {
   width: 100px;
+}
+@media (max-width: 620px) {
+  footer .navigation {
+    flex-direction: column;
+    text-align: center;
+    gap: 43px;
+  }
 }
 footer ul {
   text-decoration: none;
@@ -803,6 +837,13 @@ footer i.fab.fa-twitter,
 footer i.fab.fa-linkedin {
   color: white;
   font-size: 30px;
+}
+@media (max-width: 620px) {
+  footer i.fab.fa-github,
+footer i.fab.fa-twitter,
+footer i.fab.fa-linkedin {
+    font-size: 45px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
