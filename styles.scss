@@ -767,6 +767,7 @@ footer {
 
       @media (max-width: 620px) {
         padding-bottom: 33px;
+        flex-direction: column;
       }
 
       // &:nth-child(2) {

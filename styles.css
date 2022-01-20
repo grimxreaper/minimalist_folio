@@ -811,6 +811,7 @@ footer .row .col {
 @media (max-width: 620px) {
   footer .row .col {
     padding-bottom: 33px;
+    flex-direction: column;
   }
 }
 footer .row .col:nth-child(3) {
