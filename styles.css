@@ -790,7 +790,7 @@ footer .row {
 @media (max-width: 850px) {
   footer .row {
     width: 800px;
-    padding: 0px 9px;
+    padding: 0px 2px;
   }
 }
 @media (max-width: 790px) {
@@ -807,6 +807,12 @@ footer .row .col {
   justify-content: center;
   width: auto;
   align-items: center;
+}
+@media (max-width: 790px) {
+  footer .row .col {
+    padding-bottom: 33px;
+    flex-direction: column;
+  }
 }
 @media (max-width: 620px) {
   footer .row .col {
@@ -837,6 +843,13 @@ footer .row img {
 }
 footer .navigation {
   gap: 37px;
+}
+@media (max-width: 790px) {
+  footer .navigation {
+    flex-direction: column;
+    text-align: center;
+    gap: 43px;
+  }
 }
 @media (max-width: 620px) {
   footer .navigation {

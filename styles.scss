@@ -748,7 +748,7 @@ footer {
 
     @media (max-width: 850px) {
       width: 800px;
-      padding: 0px 9px;
+      padding: 0px 2px;
     }
 
     @media (max-width: 790px) {
@@ -764,6 +764,11 @@ footer {
       justify-content: center;
       width: auto;
       align-items: center;
+
+      @media (max-width: 790px) {
+        padding-bottom: 33px;
+        flex-direction: column;
+      }
 
       @media (max-width: 620px) {
         padding-bottom: 33px;
@@ -805,6 +810,13 @@ footer {
 
   .navigation {
     gap: 37px;
+
+    @media (max-width: 790px) {
+      flex-direction: column;
+      text-align: center;
+      gap: 43px;
+    }
+
     @media (max-width: 620px) {
       flex-direction: column;
       text-align: center;
