@@ -804,6 +804,7 @@ footer .row .col:nth-child(3) {
 }
 footer .row img {
   width: 100px;
+  margin-right: 57px;
 }
 @media (max-width: 620px) {
   footer .row img {
@@ -828,7 +829,7 @@ footer li {
   font-family: "Public Sans";
   color: white;
   list-style: none;
-  font-size: 19px;
+  font-size: 15px;
   letter-spacing: 3px;
 }
 footer i.fab.fa-github,
