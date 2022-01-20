@@ -744,18 +744,19 @@ footer {
       display: flex;
       justify-content: center;
       width: auto;
+      align-items: center;
 
       @media (max-width: 620px) {
         padding-bottom: 33px;
       }
 
-      &:nth-child(2) {
-        width: 500px;
-        flex-direction: row;
-        display: flex;
-        align-self: center;
-        justify-content: center;
-      }
+      // &:nth-child(2) {
+      //   width: 500px;
+      //   flex-direction: row;
+      //   display: flex;
+      //   align-self: center;
+      //   justify-content: center;
+      // }
 
       &:nth-child(3) {
         height: 100px;
