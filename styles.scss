@@ -727,12 +727,31 @@ footer {
     }
 
     @media (max-width: 1272px) {
-      width: 1119px;
-      gap: 100px;
+      width: 1102px;
       padding: 0px 60px;
     }
 
-    @media (max-width: 620px) {
+    @media (max-width: 1074px) {
+      width: 1000px;
+      padding: 0px 34px;
+    }
+
+    @media (max-width: 977px) {
+      width: 944px;
+      padding: 0px 38px;
+    }
+
+    @media (max-width: 902px) {
+      width: 887px;
+      padding: 0px 38px;
+    }
+
+    @media (max-width: 850px) {
+      width: 800px;
+      padding: 0px 9px;
+    }
+
+    @media (max-width: 790px) {
       flex-direction: column;
       height: 387px;
       display: block;

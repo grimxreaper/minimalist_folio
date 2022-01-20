@@ -765,12 +765,35 @@ footer .row {
 }
 @media (max-width: 1272px) {
   footer .row {
-    width: 1119px;
-    gap: 100px;
+    width: 1102px;
     padding: 0px 60px;
   }
 }
-@media (max-width: 620px) {
+@media (max-width: 1074px) {
+  footer .row {
+    width: 1000px;
+    padding: 0px 34px;
+  }
+}
+@media (max-width: 977px) {
+  footer .row {
+    width: 944px;
+    padding: 0px 38px;
+  }
+}
+@media (max-width: 902px) {
+  footer .row {
+    width: 887px;
+    padding: 0px 38px;
+  }
+}
+@media (max-width: 850px) {
+  footer .row {
+    width: 800px;
+    padding: 0px 9px;
+  }
+}
+@media (max-width: 790px) {
   footer .row {
     flex-direction: column;
     height: 387px;
