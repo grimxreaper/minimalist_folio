@@ -811,6 +811,9 @@ footer .row img {
     width: 120px;
   }
 }
+footer .navigation {
+  gap: 37px;
+}
 @media (max-width: 620px) {
   footer .navigation {
     flex-direction: column;

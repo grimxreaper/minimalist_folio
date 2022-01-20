@@ -784,6 +784,7 @@ footer {
   }
 
   .navigation {
+    gap: 37px;
     @media (max-width: 620px) {
       flex-direction: column;
       text-align: center;
