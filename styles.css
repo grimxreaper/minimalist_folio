@@ -802,7 +802,7 @@ footer .row {
 @media (max-width: 750px) {
   footer .row {
     flex-direction: column;
-    height: 463px;
+    height: 516px;
     display: block;
     padding: 50px 0px;
     margin-bottom: 63px;
@@ -835,7 +835,6 @@ footer .row .col:nth-child(3) {
 @media (max-width: 750px) {
   footer .row .col:nth-child(3) {
     width: 331px;
-    margin-top: 23px;
   }
 }
 footer .row img {
@@ -862,7 +861,12 @@ footer .navigation {
   footer .navigation {
     flex-direction: column;
     text-align: center;
-    gap: 43px;
+    gap: 54px;
+  }
+}
+@media (max-width: 750px) {
+  footer .social.icons {
+    margin-top: 30px;
   }
 }
 footer ul {
@@ -881,7 +885,7 @@ footer li {
 }
 @media (max-width: 750px) {
   footer li {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 footer i.fab.fa-github,

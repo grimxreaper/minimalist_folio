@@ -758,7 +758,7 @@ footer {
 
     @media (max-width: 750px) {
       flex-direction: column;
-      height: 463px;
+      height: 516px;
       display: block;
       padding: 50px 0px;
       margin-bottom: 63px;
@@ -789,7 +789,6 @@ footer {
 
         @media (max-width: 750px) {
           width: 331px;
-          margin-top: 23px;
         }
       }
     }
@@ -819,8 +818,16 @@ footer {
     @media (max-width: 750px) {
       flex-direction: column;
       text-align: center;
-      gap: 43px;
+      gap: 54px;
     }
+  }
+
+  .social.icons {
+
+    @media (max-width: 750px) {
+      margin-top: 30px;
+    }
+
   }
 
   ul {
@@ -839,7 +846,7 @@ footer {
     letter-spacing: 3px;
 
     @media (max-width: 750px) {
-      font-size: 20px;
+      font-size: 22px;
     }
   }
 
