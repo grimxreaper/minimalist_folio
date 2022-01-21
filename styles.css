@@ -802,7 +802,7 @@ footer .row {
 @media (max-width: 750px) {
   footer .row {
     flex-direction: column;
-    height: 387px;
+    height: 463px;
     display: block;
     padding: 50px 0px;
     margin-bottom: 63px;
@@ -835,6 +835,7 @@ footer .row .col:nth-child(3) {
 @media (max-width: 750px) {
   footer .row .col:nth-child(3) {
     width: 331px;
+    margin-top: 23px;
   }
 }
 footer .row img {
