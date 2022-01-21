@@ -776,14 +776,6 @@ footer {
         flex-direction: column;
       }
 
-      // &:nth-child(2) {
-      //   width: 500px;
-      //   flex-direction: row;
-      //   display: flex;
-      //   align-self: center;
-      //   justify-content: center;
-      // }
-
       &:nth-child(3) {
         height: 100px;
         width: 400px;
@@ -809,6 +801,8 @@ footer {
     @media (max-width: 750px) {
       width: 120px;
       margin-right: 0px;
+      margin-bottom: 56px;
+      margin-top: 26px;
     }
 
     }
@@ -842,6 +836,10 @@ footer {
     list-style: none;
     font-size: 15px;
     letter-spacing: 3px;
+
+    @media (max-width: 750px) {
+      font-size: 20px;
+    }
   }
 
   i.fab.fa-github,

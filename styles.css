@@ -845,6 +845,8 @@ footer .row img {
   footer .row img {
     width: 120px;
     margin-right: 0px;
+    margin-bottom: 56px;
+    margin-top: 26px;
   }
 }
 footer .navigation {
@@ -875,6 +877,11 @@ footer li {
   list-style: none;
   font-size: 15px;
   letter-spacing: 3px;
+}
+@media (max-width: 750px) {
+  footer li {
+    font-size: 20px;
+  }
 }
 footer i.fab.fa-github,
 footer i.fab.fa-twitter,
