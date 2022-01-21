@@ -806,6 +806,7 @@ footer .row {
     display: block;
     padding: 50px 0px;
     margin-bottom: 63px;
+    width: auto;
   }
 }
 footer .row .col {
