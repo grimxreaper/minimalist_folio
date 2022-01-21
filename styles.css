@@ -844,6 +844,7 @@ footer .row img {
 @media (max-width: 750px) {
   footer .row img {
     width: 120px;
+    margin-right: 0px;
   }
 }
 footer .navigation {
