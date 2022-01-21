@@ -752,11 +752,8 @@ footer {
     }
 
     @media (max-width: 790px) {
-      flex-direction: column;
-      height: 387px;
-      display: block;
-      padding: 50px 0px;
-      margin-bottom: 63px;
+      width: 750px;
+      padding: 0px 2px;
     }
 
     .col {
@@ -764,11 +761,6 @@ footer {
       justify-content: center;
       width: auto;
       align-items: center;
-
-      @media (max-width: 790px) {
-        padding-bottom: 33px;
-        flex-direction: column;
-      }
 
       @media (max-width: 620px) {
         padding-bottom: 33px;
@@ -789,6 +781,10 @@ footer {
         align-items: center;
         justify-content: flex-end;
         flex-direction: row;
+
+        @media (max-width: 790px) {
+          margin-right: 45px;
+        }
 
         @media (max-width: 620px) {
           width: 331px;
@@ -812,9 +808,7 @@ footer {
     gap: 37px;
 
     @media (max-width: 790px) {
-      flex-direction: column;
-      text-align: center;
-      gap: 43px;
+      gap: 30px;
     }
 
     @media (max-width: 620px) {
