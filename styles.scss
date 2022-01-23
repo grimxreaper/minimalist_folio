@@ -134,6 +134,14 @@ nav {
   width: 80px;
   position: relative;
   opacity: 0;
+  display: none;
+}
+
+.mobile_menu.displayBlock {
+  display: block;
+}
+.mobile_menu.opacityOne {
+  opacity: 1;
 }
 
 .mobile_menu {
