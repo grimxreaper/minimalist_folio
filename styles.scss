@@ -155,8 +155,9 @@ nav {
   position: relative;
   width: 200px;
   margin: 0 auto;
-  display: flex;
+  display: none;
   justify-content: center;
+  opacity: 0;
 
   ul {
     display: flex;
@@ -172,6 +173,17 @@ nav {
     font-family: 12px;
     text-transform: uppercase;
   }
+}
+.mobile_menu.active > .menu_button + .mobile_menu {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.mobile_menu.displayBlock {
+  display: block;
+}
+.mobile_menu.opacityOne {
+  opacity: 1;
 }
 
 //block hero 1

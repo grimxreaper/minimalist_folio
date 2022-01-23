@@ -129,8 +129,9 @@ nav li a {
   position: relative;
   width: 200px;
   margin: 0 auto;
-  display: flex;
+  display: none;
   justify-content: center;
+  opacity: 0;
 }
 .mobile_menu ul {
   display: flex;
@@ -144,6 +145,19 @@ nav li a {
   letter-spacing: 2px;
   font-family: 12px;
   text-transform: uppercase;
+}
+
+.mobile_menu.active > .menu_button + .mobile_menu {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.mobile_menu.displayBlock {
+  display: block;
+}
+
+.mobile_menu.opacityOne {
+  opacity: 1;
 }
 
 .block.hero.style-1 {
