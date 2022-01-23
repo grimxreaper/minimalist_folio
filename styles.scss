@@ -118,11 +118,14 @@ nav {
   justify-content: center;
   z-index: 1;
   display: flex;
-  display: none;
 
   @media (max-width: 558px) {
     display: block;
   }
+}
+
+.menu_button.displayBlock {
+  display: none;
 }
 
 .menu {
@@ -137,10 +140,10 @@ nav {
   display: none;
 }
 
-.mobile_menu.displayBlock {
+.close_button.displayBlock {
   display: block;
 }
-.mobile_menu.opacityOne {
+.close_button.opacityOne {
   opacity: 1;
 }
 
