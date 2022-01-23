@@ -103,6 +103,10 @@ nav li a {
   display: none;
 }
 
+.menuPic {
+  width: 30px;
+}
+
 .menu {
   display: flex;
   gap: 22px;
