@@ -109,8 +109,14 @@ nav li a {
 }
 
 .close_button {
-  width: 80px;
-  position: relative;
+  position: absolute;
+  top: 61px;
+  right: 19px;
+  width: 50px;
+  height: 40px;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
   opacity: 0;
   display: none;
 }
