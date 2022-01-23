@@ -118,6 +118,25 @@ nav li a {
   gap: 22px;
 }
 
+.mobile.menu {
+  background-color: #33323d;
+  position: relative;
+  width: 200px;
+}
+.mobile.menu ul {
+  display: flex;
+  flex-direction: column;
+}
+.mobile.menu li {
+  color: #fff;
+  font-family: "Public Sans";
+  text-align: center;
+  padding: 10px 5%;
+  letter-spacing: 2px;
+  font-family: 12px;
+  text-transform: uppercase;
+}
+
 .block.hero.style-1 {
   display: flex;
   align-items: center;

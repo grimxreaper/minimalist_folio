@@ -144,6 +144,27 @@ nav {
   gap: 22px;
 }
 
+.mobile.menu {
+  background-color: $primary-color-grey;
+  position: relative;
+  width: 200px;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  li {
+    color: #fff;
+    font-family: $body;
+    text-align: center;
+    padding: 10px 5%;
+    letter-spacing: 2px;
+    font-family: 12px;
+    text-transform: uppercase;
+  }
+}
+
 //block hero 1
 
 .block.hero.style-1 {
