@@ -118,16 +118,25 @@ nav li a {
   gap: 22px;
 }
 
-.mobile.menu {
+.close_button {
+  width: 80px;
+  position: relative;
+  opacity: 0;
+}
+
+.mobile_menu {
   background-color: #33323d;
   position: relative;
   width: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
-.mobile.menu ul {
+.mobile_menu ul {
   display: flex;
   flex-direction: column;
 }
-.mobile.menu li {
+.mobile_menu li {
   color: #fff;
   font-family: "Public Sans";
   text-align: center;
