@@ -91,7 +91,7 @@ nav li a {
   align-items: center;
   justify-content: center;
   z-index: 1;
-  display: flex;
+  display: none;
 }
 @media (max-width: 558px) {
   .menu_button {
@@ -110,11 +110,9 @@ nav li a {
 
 .close_button {
   position: absolute;
-  top: 61px;
-  right: 19px;
-  width: 50px;
-  height: 40px;
-  padding: 1rem;
+  top: 70px;
+  right: 31px;
+  width: auto;
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -127,6 +125,10 @@ nav li a {
 
 .close_button.opacityOne {
   opacity: 1;
+}
+
+.close {
+  width: 25px;
 }
 
 .mobile_menu {
