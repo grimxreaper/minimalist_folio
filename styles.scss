@@ -122,20 +122,6 @@ nav {
 
   @media (max-width: 558px) {
     display: block;
-
-    .hamburger {
-      position: relative;
-      height: 1px;
-      width: 21px;
-      background-color: $primary-color-grey;
-      display: flex;
-      flex: none;
-      cursor: pointer;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 3px;
-      border-radius: 5px;
-    }
   }
 }
 

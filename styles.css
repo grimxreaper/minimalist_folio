@@ -98,19 +98,6 @@ nav li a {
   .menu_button {
     display: block;
   }
-  .menu_button .hamburger {
-    position: relative;
-    height: 1px;
-    width: 21px;
-    background-color: #33323d;
-    display: flex;
-    flex: none;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 3px;
-    border-radius: 5px;
-  }
 }
 
 .menu {
