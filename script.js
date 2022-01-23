@@ -12,3 +12,9 @@ menuButton.addEventListener("click", () => {
     closeButton.classList.toggle("opacityOne");
   }, 100);
 });
+
+closeButton.addEventListener("click", () => {
+  menuButton.classList.toggle("displayBlock");
+  mobileMenu.classList.toggle("displayBlock");
+  closeButton.classList.toggle("displayBlock");
+});
