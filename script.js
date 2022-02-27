@@ -1,7 +1,7 @@
 const menuButton = document.getElementsByClassName("menu_button")[0];
 const mobileMenu = document.getElementsByClassName("mobile_menu")[0];
 const closeButton = document.getElementsByClassName("close_button")[0];
-
+const mobileMenuItems = document.getElementsByClassName("mobile_menu_items")[0];
 menuButton.addEventListener("click", () => {
   mobileMenu.classList.toggle("displayBlock");
   closeButton.classList.toggle("displayBlock");
@@ -23,3 +23,5 @@ closeButton.addEventListener("click", () => {
     closeButton.classList.toggle("opacityOne");
   }, 100);
 });
+
+//close mobile menu at window size < than 560px

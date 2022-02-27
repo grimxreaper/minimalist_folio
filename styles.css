@@ -6,6 +6,9 @@
 
 .page.wrapper {
   overflow: hidden;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
 }
 
 .wrapper {
@@ -144,7 +147,6 @@ nav li a {
   opacity: 0;
 }
 .mobile_menu ul {
-  display: flex;
   flex-direction: column;
 }
 .mobile_menu li {
@@ -251,7 +253,7 @@ nav li a {
   }
 }
 .block.hero.style-1 .row .col .desktop.image {
-  width: 1293px;
+  width: 100%;
   max-width: 1775px;
   display: flex;
 }
@@ -706,7 +708,7 @@ nav li a {
 .block.hero.style-3 .row {
   display: flex;
   flex-direction: row;
-  width: 1297px;
+  max-width: 1297px;
   justify-content: space-between;
 }
 @media screen and (max-width: 1295px) {

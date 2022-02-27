@@ -28,6 +28,9 @@ $body: "Public Sans";
 
 .page.wrapper {
   overflow: hidden;
+  max-width: 1200px;
+	margin: auto;
+	padding: 0 20px;
 }
 
 .wrapper {
@@ -169,7 +172,6 @@ nav {
   opacity: 0;
 
   ul {
-    display: flex;
     flex-direction: column;
   }
 
@@ -194,6 +196,7 @@ nav {
 .mobile_menu.opacityOne {
   opacity: 1;
 }
+
 
 //block hero 1
 
@@ -269,7 +272,7 @@ nav {
       }
 
       .desktop.image {
-        width: 1293px;
+        width: 100%;
         max-width: 1775px;
         display: flex;
 
@@ -675,7 +678,7 @@ nav {
   .row {
     display: flex;
     flex-direction: row;
-    width: 1297px;
+    max-width: 1297px;
     justify-content: space-between;
 
     @media screen and (max-width: 1295px) {
