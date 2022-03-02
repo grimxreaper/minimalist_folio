@@ -128,6 +128,11 @@ nav li a {
 .close_button.displayBlock {
   display: block;
 }
+@media screen and (min-width: 560px) {
+  .close_button.displayBlock {
+    display: none;
+  }
+}
 
 .close_button.opacityOne {
   opacity: 1;
@@ -139,12 +144,14 @@ nav li a {
 
 .mobile_menu {
   background-color: #33323d;
-  position: relative;
+  position: absolute;
   width: 200px;
-  margin: 0 auto;
   display: none;
   justify-content: center;
   opacity: 0;
+  z-index: 999;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .mobile_menu ul {
   flex-direction: column;
@@ -166,6 +173,11 @@ nav li a {
 
 .mobile_menu.displayBlock {
   display: block;
+}
+@media screen and (min-width: 560px) {
+  .mobile_menu.displayBlock {
+    display: none;
+  }
 }
 
 .mobile_menu.opacityOne {

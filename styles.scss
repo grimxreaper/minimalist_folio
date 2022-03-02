@@ -153,6 +153,10 @@ nav {
 
 .close_button.displayBlock {
   display: block;
+
+  @media screen and (min-width: 560px) {
+    display: none;
+  }
 }
 .close_button.opacityOne {
   opacity: 1;
@@ -164,12 +168,14 @@ nav {
 
 .mobile_menu {
   background-color: $primary-color-grey;
-  position: relative;
+  position: absolute;
   width: 200px;
-  margin: 0 auto;
   display: none;
   justify-content: center;
   opacity: 0;
+  z-index: 999;
+  left: 50%;
+  transform: translateX(-50%);
 
   ul {
     flex-direction: column;
@@ -192,6 +198,11 @@ nav {
 
 .mobile_menu.displayBlock {
   display: block;
+
+  @media screen and (min-width: 560px) {
+    display: none;
+  }
+
 }
 .mobile_menu.opacityOne {
   opacity: 1;
